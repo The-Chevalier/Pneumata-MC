@@ -1,0 +1,14 @@
+[
+  {
+    "mob": "minecraft:blaze",
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": -64,
+      "maxheight": 25,
+      "maxthis": 3,
+      "inair": true
+    }
+  }
+]

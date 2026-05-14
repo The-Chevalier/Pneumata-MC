@@ -1,0 +1,45 @@
+[
+  {
+    "mob": "minecraft:blaze",
+    "dimension": "minecraft:overworld",
+    "minheight": 25,
+    "maxheight": 25,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:ghast",
+    "dimension": "minecraft:overworld",
+    "minheight": 0,
+    "maxheight": 25,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "result": "deny"
+  },
+  {
+    "mob": "scguns:cog_minion",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "result": "deny"
+  },
+  {
+    "mob": "scguns:hive",
+    "result": "deny"
+  },
+  {
+    "mob": "scguns:sky_carrier",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "mincount": 3,
+    "result": "deny"
+  }
+]

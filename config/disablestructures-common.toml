@@ -1,0 +1,5 @@
+#If enabled will output to the debug.log when a structure is disabled.
+"Enable Debug" = false
+#This list defines the structures that should be disabled from generating.
+"Disabled Structures" = ["minecraft:desert_pyramid", "minecraft:village_desert", "minecraft:village_plains", "minecraft:village_savanna", "minecraft:village_snowy", "minecraft:village_taiga", "terralith:fortified_village", "terralith:fortified_desert_village", "terralith:glacial_hut", "terralith:spire", "minecraft:swamp_hut", "minecraft:ruined_portal", "minecraft:ruined_portal_desert", "minecraft:ruined_portal_jungle", "minecraft:ruined_portal_mountain", "minecraft:ruined_portal_nether", "minecraft:ruined_portal_ocean", "minecraft:ruined_portal_swamp"]
+

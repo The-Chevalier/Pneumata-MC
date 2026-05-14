@@ -1,0 +1,19 @@
+
+["Sleep screen info"]
+	#Range: -100000 ~ 100000
+	sleep_screen_info_horizontal_offset = 10
+	#Range: -100000 ~ 100000
+	sleep_screen_info_vertical_offset = 10
+	show_sleep_screen_info_bed_comfort_level = true
+	show_sleep_screen_info_bed_area_familiarity = true
+	show_sleep_screen_info_bed_break_chance = false
+	show_sleep_screen_info_bed_destroy_on_break_chance = false
+
+["Saturation tooltip"]
+	#The value in the tooltip where it shows how much food of this type has been consumed recently
+	#A bread would have a value of 3.0. You can turn this in to a unit, for example to kg, by transforming this value by multiplying it with this number.
+	#A value of '0.0' will disable the popup completely.
+	#Range: 0.0 ~ 1.0E8
+	saturation_value_conversion = 0.05
+	saturation_conversion_unit = "kg"
+

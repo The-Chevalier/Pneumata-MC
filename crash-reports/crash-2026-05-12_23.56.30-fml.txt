@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 2026-05-12 23:56:30
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue --
+Details:
+	Mod file: <No mod information provided>
+	Failure message: File mods/citresewn-1.2.2+1.21.jar is a Fabric mod and cannot be loaded
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: nerb --
+Details:
+	Mod file: /home/chevalier/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/RSTM 1.21.1 Candidate 2/minecraft/mods/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
+	Failure message: Mod nerb requires architectury 13.0.2 or above
+		Currently, architectury is not installed
+		
+	Mod version: 0.4.3
+	Mod issues URL: https://github.com/SSKirillSS/nerb/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: scguns --
+Details:
+	Mod file: /home/chevalier/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/RSTM 1.21.1 Candidate 2/minecraft/mods/ScorchedGuns-1.2.5.jar
+	Failure message: Mod scguns requires framework 0.13.9 or above
+		Currently, framework is not installed
+		Reason for the dependency: Required for Scorched Guns networking and synced data support.
+	Mod version: 1.2.5
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: octolib --
+Details:
+	Mod file: /home/chevalier/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/RSTM 1.21.1 Candidate 2/minecraft/mods/OctoLib-NEOFORGE-0.6.2+1.21.jar
+	Failure message: Mod octolib requires architectury 13.0.2 or above
+		Currently, architectury is not installed
+		
+	Mod version: 0.6.2
+	Mod issues URL: https://github.com/SSKirillSS/octo-lib/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: kubejs --
+Details:
+	Mod file: /home/chevalier/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/RSTM 1.21.1 Candidate 2/minecraft/mods/kubejs-neoforge-2101.7.2-build.363.jar
+	Failure message: Mod kubejs requires rhino 2101.2.7-build.81 or above
+		Currently, rhino is not installed
+		
+	Mod version: 2101.7.2-build.363
+	Mod issues URL: https://kubejs.com/support?source=kubejs&mc=2101&loader=neoforge
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: veil --
+Details:
+	Mod file: /home/chevalier/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/RSTM 1.21.1 Candidate 2/minecraft/mods/sable-neoforge-1.21.1-1.2.2.jar#304!/META-INF/jarjar/veil-neoforge-1.21.1-4.0.0.jar
+	Failure message: Mod veil is incompatible with embeddium any
+		Currently, embeddium is 1.0.15+mc1.21.1
+		The reason is: Veil supports Sodium 0.6.9 and above
+	Mod version: 4.0.0
+	Mod issues URL: https://github.com/FoundryMC/Veil/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.17.0-23-generic
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 219371744 bytes (209 MiB) / 1516240896 bytes (1446 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 32
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 5950X 16-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 32
+	Graphics card #0 name: GA106 [GeForce RTX 3060 Lite Hash Rate]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MiB): 288.00
+	Graphics card #0 deviceId: 0x2504
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 18047.13
+	Virtual memory used (MiB): 20351.60
+	Swap memory total (MiB): 2048.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 3176.68, total: 3199.82
+	Space in storage for workdir (MiB): available: 537950.88, total: 937291.06
+	JVM Flags: 2 total; -Xms512m -Xmx4096m
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.229-universal.jar                   |NeoForge                      |neoforge                      |21.1.229            |Manifest: NOSIGNATURE

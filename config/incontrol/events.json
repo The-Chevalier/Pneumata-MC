@@ -1,0 +1,21 @@
+[
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "minecraft:cow",
+      "player": true
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "random": 0.3
+    },
+    "spawn": {
+      "mob": "minecraft:chicken",
+      "mindistance": 3,
+      "maxdistance": 5,
+      "mincount": 2,
+      "maxcount": 3,
+      "attempts": 20
+    }
+  }
+]

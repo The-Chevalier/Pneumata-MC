@@ -1,0 +1,5 @@
+/time set day
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/gamemode survival
+/gamemode creative
