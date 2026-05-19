@@ -1,0 +1,7 @@
+{
+  "itemID": "kubejs:fraktan_rib",
+  "organScores": [
+    {"id":"chestcavity:defense","value": "1.4"},
+    {"id":"chestcavity:impact_resistant","value": "1"}
+  ]
+}

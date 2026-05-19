@@ -1,0 +1,92 @@
+[Composition]
+	chested_loot_wheat_min = 4
+	enable_chested_animals = true
+	golem_spawn_chance = 0.35
+	enable_golem_guard = true
+	chested_loot_hay_min = 1
+	cold_chest_loot = ["minecraft:sweet_berries,4,12", "minecraft:coal,2,10", "minecraft:leather,1,6"]
+	enable_biome_specific_animals = true
+	max_chested_animals = 2
+	enable_biome_chested_animal_loot = true
+	temperate_chest_loot = ["minecraft:wheat,6,16", "minecraft:hay_block,1,4", "minecraft:emerald,1,4"]
+	min_villagers = 2
+	min_animals = 1
+	chested_loot_leather_min = 0
+	enable_chested_animal_loot = true
+	min_chested_animals = 1
+	chested_loot_hay_max = 4
+	chested_loot_emerald_min = 0
+	desert_chest_loot = ["minecraft:cactus,4,14", "minecraft:rabbit_hide,1,5", "minecraft:dead_bush,1,4"]
+	chested_loot_wheat_max = 14
+	chested_loot_leather_max = 5
+	max_villagers = 3
+	chested_loot_emerald_max = 3
+	max_animals = 2
+
+[Spawning]
+	villager_move_speed = 0.18
+	min_distance_between_caravans = 180.0
+	caravan_wander_min_seconds = 45
+	caravan_pause_max_seconds = 5
+	caravan_move_speed = 0.24
+	caravan_wander_max_distance = 96.0
+	spawn_max_distance = 140.0
+	raider_move_speed = 0.65
+	village_search_radius = 160
+	caravan_wander_min_distance = 40.0
+	min_spawn_delay_seconds = 600
+	caravan_pause_min_seconds = 2
+	max_spawn_delay_seconds = 1200
+	caravan_wander_max_seconds = 120
+	caravan_pause_chance = 0.12
+	caravan_lifespan_days = 4
+	spawn_min_distance = 64.0
+	caravan_pause_check_interval_seconds = 18
+	despawn_distance = 220.0
+	spawn_chance = 0.65
+
+[Trading]
+	min_trades = 10
+	max_trades = 10
+
+[Commands]
+	enable_commands = false
+
+[WorldGen]
+	stop_hay_bales_min = 2
+	stop_barrel_emerald_max = 4
+	stop_barrel_enabled = true
+	stop_placements_per_tick = 2
+	structure_generation_chance = 0.005
+	stop_water_avoid_radius = 6
+	min_stop_chunk_distance = 32
+	enable_caravan_stops = true
+	stop_barrel_emerald_min = 1
+	stop_hay_bales_max = 5
+	stop_barrel_wheat_max = 20
+	stop_barrel_wheat_min = 6
+	stop_min_player_distance = 128
+
+[Mini_Raid]
+	sound_radius = 40.0
+	check_interval_ticks = 40
+	raid_spawn_radius = 22.0
+	raid_reward_advancement_id = "bettercaravans:savior_of_caravan"
+	raiders_glow_duration_ticks = 200
+	raid_start_sound = "minecraft:event.raid.horn"
+	min_discount_percent = 50
+	xp_reward_for_advancement = 14
+	raid_win_sound = "minecraft:ui.toast.challenge_complete"
+	raid_trigger_seconds = 25
+	player_detection_radius = 24.0
+	raid_start_sound_pitch = 1.0
+	raid_chance = 0.06
+	enable_mini_raids = true
+	min_raiders = 2
+	raid_start_sound_volume = 1.0
+	xp_reward_for_raid = 8
+	enable_raid_start_sound = true
+	raid_start_sound_radius = 48.0
+	max_raiders = 5
+	max_discount_percent = 60
+	enable_raiders_glow = true

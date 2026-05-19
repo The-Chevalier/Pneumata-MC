@@ -1,15 +1,15 @@
-[23:25:46] [INIT] KubeJS 2101.7.2-build.363; MC 2101 NeoForge
-[23:25:46] [INIT] Loaded plugins:
-[23:25:46] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[23:25:46] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[23:25:46] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[23:25:46] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
-[23:25:46] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[23:25:46] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[23:25:46] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[23:25:46] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
-[23:25:46] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
-[23:25:46] [INFO] Loaded script startup_scripts:main.js in 0.046 s
-[23:25:46] [INFO] Loaded 1/1 KubeJS startup scripts in 0.637 s with 0 errors and 0 warnings
-[23:25:47] [INFO] Validated 3196 files in kubejs/assets/ in 103ms
-[23:25:47] [INFO] Validated 0 files in kubejs/data/ in 0ms
+[22:45:39] [INIT] KubeJS 2101.7.2-build.363; MC 2101 NeoForge
+[22:45:39] [INIT] Loaded plugins:
+[22:45:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[22:45:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[22:45:39] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[22:45:39] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[22:45:39] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:45:39] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[22:45:39] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:45:39] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
+[22:45:40] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[22:45:40] [INFO] Loaded script startup_scripts:main.js in 0.041 s
+[22:45:40] [INFO] Loaded 1/1 KubeJS startup scripts in 0.689 s with 0 errors and 0 warnings
+[22:45:40] [INFO] Validated 3196 files in kubejs/assets/ in 47ms
+[22:45:40] [INFO] Validated 12 files in kubejs/data/ in 1ms

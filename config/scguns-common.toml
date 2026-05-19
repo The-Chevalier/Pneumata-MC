@@ -226,7 +226,7 @@
 		#This is the spawn chance on NORMAL difficulty.
 		# Default: 0.2
 		# Range: 0.0 ~ 1.0
-		eliteChance = 0.2
+		eliteChance = 0.5
 
 	#Properties relating to rockets
 	[common.rockets]

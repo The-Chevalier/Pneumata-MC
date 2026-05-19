@@ -1,0 +1,7 @@
+{
+  "itemID": "kubejs:fraktan_muscle",
+  "organScores": [
+    {"id":"chestcavity:strength","value": "1.5"},
+    {"id":"chestcavity:speed","value": "1.25"}
+  ]
+}

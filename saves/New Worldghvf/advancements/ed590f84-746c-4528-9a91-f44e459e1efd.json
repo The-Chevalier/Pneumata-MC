@@ -12,10 +12,13 @@
       "minecraft:old_growth_pine_taiga": "2026-05-13 00:30:08 -0600",
       "minecraft:forest": "2026-05-13 00:00:49 -0600",
       "minecraft:taiga": "2026-05-13 00:20:49 -0600",
+      "minecraft:deep_dark": "2026-05-15 23:30:29 -0600",
       "minecraft:ocean": "2026-05-13 01:17:24 -0600",
       "minecraft:river": "2026-05-13 00:20:15 -0600",
+      "minecraft:lukewarm_ocean": "2026-05-15 23:18:04 -0600",
       "minecraft:savanna": "2026-05-13 01:26:51 -0600",
-      "minecraft:plains": "2026-05-13 00:30:45 -0600"
+      "minecraft:plains": "2026-05-13 00:30:45 -0600",
+      "minecraft:warm_ocean": "2026-05-15 23:25:29 -0600"
     },
     "done": false
   },
@@ -859,12 +862,6 @@
     },
     "done": true
   },
-  "horseman:recipes/tools/copper_horn": {
-    "criteria": {
-      "has_goat_horn": "2026-05-13 23:30:29 -0600"
-    },
-    "done": true
-  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2026-05-13 23:27:19 -0600"
@@ -874,6 +871,1729 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2026-05-13 23:27:19 -0600"
+    },
+    "done": true
+  },
+  "horseman:recipes/tools/copper_horn": {
+    "criteria": {
+      "has_goat_horn": "2026-05-13 23:30:29 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_vertical_item_vault_from_pink_vertical_vaults": {
+    "criteria": {
+      "has_pink_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_vertical_shipping_container_from_pink_vertical_vaults": {
+    "criteria": {
+      "has_pink_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_basic_shipping_container_from_green_horizontal_vaults": {
+    "criteria": {
+      "has_green_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_vertical_shipping_container_from_light_gray_vertical_vaults": {
+    "criteria": {
+      "has_light_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_item_vault_from_green_horizontal_vaults": {
+    "criteria": {
+      "has_green_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_item_vault_from_blue_horizontal_vaults": {
+    "criteria": {
+      "has_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_vertical_item_vault_from_purple_vertical_vaults": {
+    "criteria": {
+      "has_purple_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_vertical_shipping_container_from_green_vertical_vaults": {
+    "criteria": {
+      "has_green_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_item_vault_from_cyan_horizontal_vaults": {
+    "criteria": {
+      "has_cyan_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_vertical_item_vault_from_gray_vertical_vaults": {
+    "criteria": {
+      "has_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_vertical_item_vault_from_orange_vertical_vaults": {
+    "criteria": {
+      "has_orange_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_vertical_item_vault_from_black_vertical_vaults": {
+    "criteria": {
+      "has_black_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_vertical_shipping_container_from_blue_vertical_vaults": {
+    "criteria": {
+      "has_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_vertical_basic_shipping_container_from_green_vertical_vaults": {
+    "criteria": {
+      "has_green_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_shipping_container_from_gray_horizontal_vaults": {
+    "criteria": {
+      "has_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_basic_shipping_container_from_blue_horizontal_vaults": {
+    "criteria": {
+      "has_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_vertical_item_vault_from_lime_vertical_vaults": {
+    "criteria": {
+      "has_lime_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_basic_shipping_container_from_white_horizontal_vaults": {
+    "criteria": {
+      "has_white_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_shipping_container_from_black_horizontal_vaults": {
+    "criteria": {
+      "has_black_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_vertical_shipping_container_from_black_vertical_vaults": {
+    "criteria": {
+      "has_black_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_item_vault_from_lime_horizontal_vaults": {
+    "criteria": {
+      "has_lime_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_vertical_shipping_container_from_light_blue_vertical_vaults": {
+    "criteria": {
+      "has_light_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_shipping_container_from_lime_horizontal_vaults": {
+    "criteria": {
+      "has_lime_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_shipping_container_from_green_horizontal_vaults": {
+    "criteria": {
+      "has_green_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_item_vault_from_white_horizontal_vaults": {
+    "criteria": {
+      "has_white_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_item_vault_from_black_horizontal_vaults": {
+    "criteria": {
+      "has_black_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_item_vault_from_light_blue_horizontal_vaults": {
+    "criteria": {
+      "has_light_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_vertical_basic_shipping_container_from_cyan_vertical_vaults": {
+    "criteria": {
+      "has_cyan_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_vertical_shipping_container_from_orange_vertical_vaults": {
+    "criteria": {
+      "has_orange_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_vertical_item_vault_from_light_blue_vertical_vaults": {
+    "criteria": {
+      "has_light_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_vertical_shipping_container_from_brown_vertical_vaults": {
+    "criteria": {
+      "has_brown_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_vertical_item_vault_from_yellow_vertical_vaults": {
+    "criteria": {
+      "has_yellow_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_vertical_item_vault_from_blue_vertical_vaults": {
+    "criteria": {
+      "has_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/vertical_item_vault_from_base_vertical_vaults": {
+    "criteria": {
+      "has_base_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_vertical_basic_shipping_container_from_light_gray_vertical_vaults": {
+    "criteria": {
+      "has_light_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_basic_shipping_container_from_orange_horizontal_vaults": {
+    "criteria": {
+      "has_orange_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_vertical_shipping_container_from_gray_vertical_vaults": {
+    "criteria": {
+      "has_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_vertical_item_vault_from_red_vertical_vaults": {
+    "criteria": {
+      "has_red_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_basic_shipping_container_from_brown_horizontal_vaults": {
+    "criteria": {
+      "has_brown_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_vertical_basic_shipping_container_from_white_vertical_vaults": {
+    "criteria": {
+      "has_white_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_vertical_basic_shipping_container_from_orange_vertical_vaults": {
+    "criteria": {
+      "has_orange_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_basic_shipping_container_from_yellow_horizontal_vaults": {
+    "criteria": {
+      "has_yellow_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_vertical_shipping_container_from_red_vertical_vaults": {
+    "criteria": {
+      "has_red_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_shipping_container_from_brown_horizontal_vaults": {
+    "criteria": {
+      "has_brown_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_vertical_basic_shipping_container_from_lime_vertical_vaults": {
+    "criteria": {
+      "has_lime_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_basic_shipping_container_from_magenta_horizontal_vaults": {
+    "criteria": {
+      "has_magenta_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_vertical_item_vault_from_light_gray_vertical_vaults": {
+    "criteria": {
+      "has_light_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_vertical_item_vault_from_brown_vertical_vaults": {
+    "criteria": {
+      "has_brown_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_basic_shipping_container_from_light_gray_horizontal_vaults": {
+    "criteria": {
+      "has_light_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_shipping_container_from_blue_horizontal_vaults": {
+    "criteria": {
+      "has_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_basic_shipping_container_from_purple_horizontal_vaults": {
+    "criteria": {
+      "has_purple_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_shipping_container_from_cyan_horizontal_vaults": {
+    "criteria": {
+      "has_cyan_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_shipping_container_from_light_gray_horizontal_vaults": {
+    "criteria": {
+      "has_light_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_vertical_item_vault_from_cyan_vertical_vaults": {
+    "criteria": {
+      "has_cyan_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_item_vault_from_orange_horizontal_vaults": {
+    "criteria": {
+      "has_orange_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_basic_shipping_container_from_gray_horizontal_vaults": {
+    "criteria": {
+      "has_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_shipping_container_from_pink_horizontal_vaults": {
+    "criteria": {
+      "has_pink_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_item_vault_from_brown_horizontal_vaults": {
+    "criteria": {
+      "has_brown_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/blue_vertical_basic_shipping_container_from_blue_vertical_vaults": {
+    "criteria": {
+      "has_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_item_vault_from_purple_horizontal_vaults": {
+    "criteria": {
+      "has_purple_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_vertical_item_vault_from_white_vertical_vaults": {
+    "criteria": {
+      "has_white_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_shipping_container_from_light_blue_horizontal_vaults": {
+    "criteria": {
+      "has_light_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_vertical_basic_shipping_container_from_purple_vertical_vaults": {
+    "criteria": {
+      "has_purple_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_basic_shipping_container_from_lime_horizontal_vaults": {
+    "criteria": {
+      "has_lime_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/basic_shipping_container_from_base_horizontal_vaults": {
+    "criteria": {
+      "has_base_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_basic_shipping_container_from_black_horizontal_vaults": {
+    "criteria": {
+      "has_black_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_shipping_container_from_red_horizontal_vaults": {
+    "criteria": {
+      "has_red_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_vertical_item_vault_from_magenta_vertical_vaults": {
+    "criteria": {
+      "has_magenta_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_vertical_shipping_container_from_purple_vertical_vaults": {
+    "criteria": {
+      "has_purple_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_shipping_container_from_white_horizontal_vaults": {
+    "criteria": {
+      "has_white_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_basic_shipping_container_from_pink_horizontal_vaults": {
+    "criteria": {
+      "has_pink_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_gray_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/orange_shipping_container_from_orange_horizontal_vaults": {
+    "criteria": {
+      "has_orange_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_vertical_basic_shipping_container_from_red_vertical_vaults": {
+    "criteria": {
+      "has_red_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/vertical_shipping_container_from_base_vertical_vaults": {
+    "criteria": {
+      "has_base_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_vertical_shipping_container_from_magenta_vertical_vaults": {
+    "criteria": {
+      "has_magenta_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/vertical_basic_shipping_container_from_base_vertical_vaults": {
+    "criteria": {
+      "has_base_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/pink_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/white_vertical_shipping_container_from_white_vertical_vaults": {
+    "criteria": {
+      "has_white_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/light_blue_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_basic_shipping_container_from_cyan_horizontal_vaults": {
+    "criteria": {
+      "has_cyan_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/shipping_container_from_base_horizontal_vaults": {
+    "criteria": {
+      "has_base_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_shipping_container_from_yellow_horizontal_vaults": {
+    "criteria": {
+      "has_yellow_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/black_vertical_basic_shipping_container_from_black_vertical_vaults": {
+    "criteria": {
+      "has_black_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_vertical_shipping_container_from_yellow_vertical_vaults": {
+    "criteria": {
+      "has_yellow_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_item_vault_from_yellow_horizontal_vaults": {
+    "criteria": {
+      "has_yellow_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/item_vault_from_base_horizontal_vaults": {
+    "criteria": {
+      "has_base_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/white_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/brown_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_item_vault_from_pink_horizontal_vaults": {
+    "criteria": {
+      "has_pink_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_vertical_basic_shipping_container_from_magenta_vertical_vaults": {
+    "criteria": {
+      "has_magenta_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_item_vault_from_red_horizontal_vaults": {
+    "criteria": {
+      "has_red_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_gray_item_vault_from_light_gray_horizontal_vaults": {
+    "criteria": {
+      "has_light_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/pink_vertical_basic_shipping_container_from_pink_vertical_vaults": {
+    "criteria": {
+      "has_pink_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_item_vault_from_gray_horizontal_vaults": {
+    "criteria": {
+      "has_gray_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/purple_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/black_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/cyan_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_vertical_shipping_container_from_rotating": {
+    "criteria": {
+      "has_rotated_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/purple_shipping_container_from_purple_horizontal_vaults": {
+    "criteria": {
+      "has_purple_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/green_vertical_item_vault_from_green_vertical_vaults": {
+    "criteria": {
+      "has_green_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/brown_vertical_basic_shipping_container_from_brown_vertical_vaults": {
+    "criteria": {
+      "has_brown_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/gray_vertical_basic_shipping_container_from_gray_vertical_vaults": {
+    "criteria": {
+      "has_gray_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_item_vault_from_magenta_horizontal_vaults": {
+    "criteria": {
+      "has_magenta_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/red_basic_shipping_container_from_red_horizontal_vaults": {
+    "criteria": {
+      "has_red_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/blue_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/gray_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/orange_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_vertical_basic_shipping_container_from_light_blue_vertical_vaults": {
+    "criteria": {
+      "has_light_blue_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/light_blue_basic_shipping_container_from_light_blue_horizontal_vaults": {
+    "criteria": {
+      "has_light_blue_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_vertical_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/lime_vertical_shipping_container_from_lime_vertical_vaults": {
+    "criteria": {
+      "has_lime_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/magenta_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/green_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/magenta_shipping_container_from_magenta_horizontal_vaults": {
+    "criteria": {
+      "has_magenta_horizontal_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/yellow_vertical_basic_shipping_container_from_yellow_vertical_vaults": {
+    "criteria": {
+      "has_yellow_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/yellow_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/lime_vertical_item_vault_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/crafting/red_vertical_basic_shipping_container_from_dyeing": {
+    "criteria": {
+      "has_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "create_vibrant_vaults:recipes/misc/stonecutting/cyan_vertical_shipping_container_from_cyan_vertical_vaults": {
+    "criteria": {
+      "has_cyan_vertical_vault": "2026-05-15 21:15:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-05-15 21:35:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-05-15 21:35:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/glassblower": {
+    "criteria": {
+      "has_glassblower": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/loom_table": {
+    "criteria": {
+      "has_loom_table": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/alchemy_bench": {
+    "criteria": {
+      "has_alchemy_bench": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/botanist_workbench": {
+    "criteria": {
+      "has_botanist_workbench": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/carpenters_table": {
+    "criteria": {
+      "has_carpenters_table": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/tinkering_table": {
+    "criteria": {
+      "has_tinkering_table": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/workbench/mason_table": {
+    "criteria": {
+      "has_mason_table": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-05-15 21:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-05-15 21:51:57 -0600"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2026-05-15 21:51:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:spotted": "2026-05-15 21:52:00 -0600"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-05-15 22:03:01 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "copycats:recipes/misc/crafting/copycat_cogwheel": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+    "criteria": {
+      "has_item": "2026-05-15 22:03:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2026-05-15 22:15:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:blaze": "2026-05-15 23:17:45 -0600",
+      "minecraft:skeleton": "2026-05-15 22:15:05 -0600"
+    },
+    "done": false
+  },
+  "disable_dimensions:root": {
+    "criteria": {
+      "trigger": "2026-05-15 22:36:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-05-15 23:17:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-05-15 23:17:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-05-15 23:17:49 -0600"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-15 23:20:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-05-15 23:20:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_catwalk_railing_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "createdeco:recipes/building_blocks/iron_window": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars_overlay_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/weathered_iron_block_from_ingots_iron_stonecutting": {
+    "criteria": {
+      "has_ingots_iron": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "cgs:recipes/misc/press_form_shotgun": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/empty_blaze_burner": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "chestcavitybeyond:recipes/misc/chest_opener": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_ladder_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/industrial_iron_block_from_ingots_iron_stonecutting": {
+    "criteria": {
+      "has_ingots_iron": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_catwalk_stairs_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "cgs:recipes/misc/press_form_gatling": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_support_wedge_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_catwalk_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "cgs:recipes/misc/press_form_revolver": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_support": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_mesh_fence_from_stonecutting": {
+    "criteria": {
+      "has_item": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "exposure:recipes/tools/camera": {
+    "criteria": {
+      "has_iron": "2026-05-15 23:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crimson_window": {
+    "criteria": {
+      "has_ingredient": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-15 23:40:16 -0600"
     },
     "done": true
   },

@@ -1,0 +1,7 @@
+{
+  "itemID": "kubejs:fraktan_heart",
+  "organScores": [
+    {"id":"chestcavity:health","value": "1.6"},
+    {"id":"chestcavity:endurance","value": "1.1"}
+  ]
+}

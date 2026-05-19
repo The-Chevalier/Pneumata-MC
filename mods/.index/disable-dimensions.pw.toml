@@ -1,0 +1,37 @@
+filename = 'disable-dimensions-0.7.1+mod.jar'
+name = 'Disable Dimensions'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.7.1+mod'
+
+[download]
+hash = '852b983909bb8f896f9dd8dd6adefb96b0a91c36f00d2e0d9201f9c36be9e4b96e92ae0b3047375c8a182b117fbf873cd6ed680cee5d5d922dc805c62618797e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pIHt096L/versions/oz6MtnYu/disable-dimensions-0.7.1%2Bmod.jar'
+
+[update.modrinth]
+mod-id = 'pIHt096L'
+version = 'oz6MtnYu'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,0 +1,14 @@
+{
+  "type": "scguns:lightning_battery",
+  "processingTime": 60,
+  "requiredEnergy": 16000,
+  "ingredients": [
+    {
+      "item": "tfmg:magnetic_alloy_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tfmg:magnet"
+  }
+}

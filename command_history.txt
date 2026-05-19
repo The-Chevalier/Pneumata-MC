@@ -3,3 +3,14 @@
 /gamerule doWeatherCycle false
 /gamemode survival
 /gamemode creative
+/reload
+/enchant The_Chevalier minecraft:knockback 2
+/enchant The_Chevalier minecraft:swift_sneak 3
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/effect give The_Chevalier minecraft:resistance infinite 999
+/effect give The_Chevalier minecraft:resistance infinite 99
+/gamemode survival
+/gamemode creative

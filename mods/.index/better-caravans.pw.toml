@@ -1,0 +1,18 @@
+filename = 'bettercaravans-neoforge-1.21.1-1.0.2-1.21.1.jar'
+name = 'Better Caravans'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = 'af9f1f15f2d918e82f2d9dde20e3ad3d0265b7ba9b24d987b7ddde38602b91585251d8c0159bcc87298922de0b5aac537a7880026369c5ef88afb0a2012dad9b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AfYuWICz/versions/fKf1gxC0/bettercaravans-neoforge-1.21.1-1.0.2-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'AfYuWICz'
+version = 'fKf1gxC0'

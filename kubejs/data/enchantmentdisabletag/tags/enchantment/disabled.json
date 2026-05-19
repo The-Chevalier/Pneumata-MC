@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:protection",
+    "minecraft:respiration",
+    "minecraft:thorns",
+    "minecraft:frost_walker",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:infinity",
+    "minecraft:mending",
+    "minecraft:efficiency",
+    "mob-ai-tweaks:after_burner",
+    "mob-ai-tweaks:descent",
+    "mob-ai-tweaks:full_auto_retrofit",
+    "mob-ai-tweaks:grappling_bobber",
+    "mob-ai-tweaks:vorpal_weapon",
+    "mob-ai-tweaks:recall",
+    "mob-ai-tweaks:withering_munitions"
+  ]
+}
