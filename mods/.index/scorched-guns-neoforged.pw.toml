@@ -1,18 +1,18 @@
-filename = 'ScorchedGuns-1.2.5.jar'
-name = 'Scorched Guns Neoforged'
+filename = 'ScorchedGuns-1.5.jar'
+name = 'Scorched Guns'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ScorchedGuns-1.2.5.jar'
+x-prismlauncher-version-number = 'ScorchedGunsNeoforged-1.5.jar'
 
 [download]
-hash = '48869e8dcdfd05e2f305722650271a67795d0887'
+hash = 'd9b2678b014c3ee4ad2599877dbb3e017675dd6b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8071050
+file-id = 8299074
 project-id = 1538807

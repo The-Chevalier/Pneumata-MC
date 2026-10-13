@@ -1,18 +1,18 @@
-filename = 'thirstwasfixed-1.5.0.jar'
+filename = 'thirstwasfixed-1.5.1.jar'
 name = 'ThirstWasFixed'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.5.0'
+x-prismlauncher-version-number = '1.5.1'
 
 [download]
-hash = '43b07c5d5660302ee175c0bfcc6b05b78da2dfd89a4e4de315c4dff38a6bd989ba8d2fd6008b90ec5fd59fef44de79b15362bf7c83137d06856361bb63d2a2d8'
+hash = '43d6aea363c091f09706ee757b5dc5c74b949841698dfcc8a62968c9ec3cb2bb9f73b475a0e07b8f607ba17d0d7420f01bd865c36090959fb524967ac109594b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/gSSt8Dml/versions/FGvnObos/thirstwasfixed-1.5.0.jar'
+url = 'https://cdn.modrinth.com/data/gSSt8Dml/versions/uhy6lAoo/thirstwasfixed-1.5.1.jar'
 
 [update.modrinth]
 mod-id = 'gSSt8Dml'
-version = 'FGvnObos'
+version = 'uhy6lAoo'

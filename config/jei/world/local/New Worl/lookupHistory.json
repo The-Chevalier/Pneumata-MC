@@ -1,0 +1,17 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_rns:mine_head"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:veridium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:crimsite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mynethersdelight:boiled_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:blank_shotgun_shell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:fossil_fuel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:fossil_fuel_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"luminous_nether:solid_ash"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:crimson_iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:blackstone_crimson_iron_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"luminous_nether:withered_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chemica:zelosite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:pyroclast"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:pyroclast_crusts"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,8 @@
+#Biome ids disabled for newly generated chunks. Example: ["minecraft:desert", "biomesoplenty:lavender_field"]
+disabledBiomes = ["minecraft:nether_wastes"]
+#Legacy single fallback biome id used by older configs when fallbackBiomes is not present.
+fallbackBiome = "minecraft:plains"
+#Fallback biome candidates for disabled biomes. Use ["default:all_enabled"] to reselect from the active biome source.
+fallbackBiomes = ["default:all_enabled"]
+#Direct biome replacements that win before fallback selection. Format: ["minecraft:forest=minecraft:plains"].
+replacementBiomes = []

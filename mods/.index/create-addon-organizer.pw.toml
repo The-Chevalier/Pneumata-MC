@@ -1,0 +1,26 @@
+filename = 'createaddonorganizer-1.5__1.21.1.jar'
+name = 'Create: Addon Organizer'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5'
+
+[download]
+hash = 'f6fd494d10ab050bbe96a1aad7dd0dd543e087c76334829444d8974064794abf5634003c884fef1dec95d85d281ca8cacce819dc5c2783a65f87d9b75f9a6d63'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CKNIaFKn/versions/zjKBE4F8/createaddonorganizer-1.5__1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'CKNIaFKn'
+version = 'zjKBE4F8'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'K0NYarUG'
+type = 'EMBEDDED'
+version = 'zIMuFccd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

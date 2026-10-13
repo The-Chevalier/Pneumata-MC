@@ -1,16 +1,50 @@
-/time set day
-/gamerule doDaylightCycle false
-/gamerule doWeatherCycle false
+/reload
+/gamemode survival
+/gamemode spectator
+/gamemode creative
+/reload
+/difficulty peaceful
+/difficulty hard
+/gamerule doInsomnia false
+/reload
+/help
+/kubejs hand
+/reload
+/gamemode survival
+/give The_Chevalier minecraft:iron_helmet
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/setworldspawn 108 66 -25
+/gamerule keepInventory true
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give The_Chevalier minecraft:netherite_pickaxe
+/effect give The_Chevalier minecraft:regeneration 10 60
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/kill The_Chevalier
+/effect give The_Chevalier minecraft:resistance infinite 99
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamerule keepInventory
+/kill The_Chevalier
 /gamemode survival
 /gamemode creative
 /reload
-/enchant The_Chevalier minecraft:knockback 2
-/enchant The_Chevalier minecraft:swift_sneak 3
+/locate biome netherexp:black_ice_glaciers
+/tp @s 248 35 -272
+/effect give The_Chevalier minecraft:night_vision infinite
+/reload
+/effect clear
 /gamemode survival
 /gamemode creative
-/gamemode survival
-/gamemode creative
-/effect give The_Chevalier minecraft:resistance infinite 999
 /effect give The_Chevalier minecraft:resistance infinite 99
 /gamemode survival
 /gamemode creative

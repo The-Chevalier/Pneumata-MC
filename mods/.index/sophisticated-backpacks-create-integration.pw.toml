@@ -1,0 +1,33 @@
+filename = 'sophisticatedbackpackscreateintegration-1.21.1-0.2.2.188.jar'
+name = 'Sophisticated Backpacks Create Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-0.2.2.188'
+
+[download]
+hash = '077e13d0e4c9411c7eb885c5b85f2cfd68720d172f43ca09525b13ba33dbc060e62e99d230836b4617f559cb8a1980b70de537e1244f41f2fce3bf1240845f34'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s85zLEDe/versions/mQ9mijSt/sophisticatedbackpackscreateintegration-1.21.1-0.2.2.188.jar'
+
+[update.modrinth]
+mod-id = 's85zLEDe'
+version = 'mQ9mijSt'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nmoqTijg'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TyCTlI4b'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

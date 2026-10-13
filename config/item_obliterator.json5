@@ -16,24 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "scguns:callwell_conversion", "scguns:callwell", "scguns:callwell_terminal",
-    "scguns:saketini", "scguns:scrapper", "scguns:rusty_gnat", "scguns:callwell_conversion",
-    "scguns:boomstick", "scguns:bruiser", "scguns:llr_director", "scguns:birdfeeder",
-    "scguns:defender_pistol", "scguns:greaser_smg", "scguns:m3_carabine",
-    "scguns:combat_shotgun", "scguns:brawler", "scguns:mk43_rifle", "scguns:ultra_knight_hawk",
-    "scguns:floundergat", "scguns:mak_mkii", "scguns:killer_23", "scguns:kalaskah",
-    "scguns:stigg", "scguns:krauser", "scguns:soul_drummer", "scguns:valora",
-    "scguns:uppercut", "scguns:prush_gun", "scguns:lockewood", "scguns:shard_culler",
-    "scguns:osgood_50", "scguns:grandle", "scguns:cogloader", "scguns:jackhammer",
-    "scguns:howler_conversion", "scguns:spitfire", "scguns:gattaler", "scguns:thunderhead",
-    "scguns:dozier_rl", "scguns:pyroclastic_flow", "scguns:freyr", "scguns:mangalitsa",
-    "scguns:super_shotgun", "scguns:prima_materia", "scguns:carapice", "scguns:shellurker",
-    "scguns:weevil", "scguns:raygun", "scguns:rat_king_and_queen", "scguns:locust",
-    "scguns:newborn_cyst", "scguns:earths_corpse", "scguns:flayed_god", "scguns:terra_incognita",
-    "scguns:antique_blueprint", "scguns:copper_blueprint", "scguns:iron_blueprint",
-    "scguns:wrecker_blueprint", "scguns:treated_brass_blueprint", "scguns:diamond_steel_blueprint",
-    "scguns:ocean_blueprint", "scguns:piglin_blueprint", "scguns:deep_dark_blueprint",
-    "scguns:end_blueprint", "scguns:scorched_blueprint", "scguns:polar_generator", "scguns:lightning_rod_connector",
+   "scguns:polar_generator", "scguns:lightning_rod_connector",
     "scguns:macerator", "scguns:powered_macerator", "scguns:powered_mechnical_press", "scguns:mechanical_press",
     "scguns:polar_generator", "scguns:gun_bench", "scguns:saketini_ironport", "scguns:winnie_millend",
     "scguns:winnie", "scguns:pax", "scguns:iron_spear", "scguns:rocket_rifle", "scguns:mokova",
@@ -52,8 +35,21 @@
     "scguns:jetpack_module", "scguns:rabbit_module", "scguns:suit_grease", "scguns:tension_spring", "scguns:shock_absorber",
     "scguns:armor_plate", "scguns:pauldron", "scguns:heavy_armor_plate", "scguns:heavy_pauldron", 
     "scguns:armor_pouches", "scguns:heavy_armor_pouches", "scguns:exo_suit_blueprint", "relics:elytra_booster", "scguns:netherite_bayonet",
-    "create_enchantment_industry:printer", "create_enchantment_industry:enchanting_guide", "create_enchantment_industry:experience_rotor"
-  
+    "tfmg:circuit_board", "chemica:advanced_circuit_board", "dndesires:bore_block", "dndesires:white_bore_block",
+    "dndesires:orange_bore_block", "dndesires:magenta_bore_block", "dndesires:light_blue_bore_block", "dndesires:yellow_bore_block",
+    "dndesires:lime_bore_block", "dndesires:pink_bore_block", "dndesires:gray_bore_block", "dndesires:light_gray_bore_block",
+    "dndesires:cyan_bore_block", "dndesires:purple_bore_block", "dndesires:blue_bore_block", "dndesires:brown_bore_block",
+    "dndesires:green_bore_block", "dndesires:red_bore_block", "dndesires:black_bore_block", "dndesires:asphalt", "dndesires:white_asphalt",
+    "dndesires:orange_asphalt", "dndesires:magenta_asphalt", "dndesires:light_blue_asphalt", "dndesires:yellow_asphalt",
+    "dndesires:lime_asphalt", "dndesires:pink_asphalt", "dndesires:gray_asphalt", "dndesires:light_gray_asphalt",
+    "dndesires:cyan_asphalt", "dndesires:purple_asphalt", "dndesires:blue_asphalt", "dndesires:brown_asphalt",
+    "dndesires:green_asphalt", "dndesires:red_asphalt", "dndesires:black_asphalt",
+    "dndesires:handheld_saw", "dndesires:handheld_drill", "dndesires:burner", "dndesires:gatling_breaker", "dndesires:gold_whisk", "dndesires:lapis_lazuli_shard",
+    "dndesires:diamond_shard", "dndesires:coal_piece", "dndesires:overburden_casing", "dndesires:industrial_casing", "dndesires:industrial_fan", "dndesires:cog_crank",
+    "dndesires:large_cog_crank", "dndesires:multimeter", "dndesires:smart_hopper", "dndesires:omni_gearbox", "dndesires:omni_speed_controller", "dndesires:roll_table",
+    "dndesires:hydraulic_press", "dndesires:gold_mixer", "dndesires:stirling_engine", "dndesires:seething_catalyst",
+    "silentgear:elytra_blueprint", "silentgear:elytra_template", "silentgear:elytra_wings", "silentgear:elytra", "minecraft:elytra",
+    "pneumaticcraft:elytra_upgrade"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

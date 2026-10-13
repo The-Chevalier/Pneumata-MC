@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"malum:spirit_altar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:runic_workbench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:aqueous_spirit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:infernal_spirit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_the_parasite\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_defiance\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:black_icicle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:soul_permafrost"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherexp:black_ice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"luminous_nether:ectoplasm_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:warped_nylium"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

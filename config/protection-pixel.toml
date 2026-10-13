@@ -22,8 +22,8 @@
 
 [alloyplates]
 	#change armor value
-	armor = 2.0
+	armor = 4.0
 	#change toughness value
-	toughness = 1.0
+	toughness = 2.0
 	#change weight value
-	weight = 1.5
+	weight = 2.5

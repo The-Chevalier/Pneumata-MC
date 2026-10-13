@@ -1,0 +1,18 @@
+filename = 'pnc_electrostatic_fix-1.21.1-1.0.1.jar'
+name = 'PneumaticCraft Electrostatic Fix'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.0.1'
+
+[download]
+hash = '6c719b5c4c823f5756432bd4a9f86ed797b568a20437ac288d91779e2a9909a9b007a1b9b9703a0063ee7c76aa50bde90c55d5995d52a1071696affa4b1ef697'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RL0AC3N8/versions/KJ7jaUrC/pnc_electrostatic_fix-1.21.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'RL0AC3N8'
+version = 'KJ7jaUrC'

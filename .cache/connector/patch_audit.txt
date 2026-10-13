@@ -1,0 +1,11 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 0
+Partial: 0
+Failed: 1
+Success rate: .00%        Accuracy: .00%
+=============================================
+
+=============== Failed mixins ===============
+shcm/shsupercm/fabric/citresewn/defaults/mixin/types/armor/ArmorFeatureRendererMixin citresewn$replaceArmorTexture(Lnet/minecraft/world/item/ArmorMaterial$Layer;ZLcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Lnet/minecraft/resources/ResourceLocation;
+=============================================
+

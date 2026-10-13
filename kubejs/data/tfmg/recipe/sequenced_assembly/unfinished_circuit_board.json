@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:unassembled_pcb"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "count": 4,
+      "id": "pneumaticcraft:printed_circuit_board"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_circuit_board"
+        },
+        {
+          "item": "tfmg:capacitor_item"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_circuit_board"
+        },
+        {
+          "item": "tfmg:resistor"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_circuit_board"
+        },
+        {
+          "item": "tfmg:transistor_item"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_circuit_board"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_circuit_board"
+        },
+        {
+          "item": "tfmg:resistor"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_circuit_board"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "tfmg:unfinished_circuit_board"
+  }
+}

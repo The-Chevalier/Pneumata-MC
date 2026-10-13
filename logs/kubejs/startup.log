@@ -1,15 +1,27 @@
-[22:45:39] [INIT] KubeJS 2101.7.2-build.363; MC 2101 NeoForge
-[22:45:39] [INIT] Loaded plugins:
-[22:45:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[22:45:39] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[22:45:39] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[22:45:39] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
-[22:45:39] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[22:45:39] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[22:45:39] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[22:45:39] [INIT] - smartin.miapi.compat.kubejs.KubeJSMiapiPlugin
-[22:45:40] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
-[22:45:40] [INFO] Loaded script startup_scripts:main.js in 0.041 s
-[22:45:40] [INFO] Loaded 1/1 KubeJS startup scripts in 0.689 s with 0 errors and 0 warnings
-[22:45:40] [INFO] Validated 3196 files in kubejs/assets/ in 47ms
-[22:45:40] [INFO] Validated 12 files in kubejs/data/ in 1ms
+[23:56:36] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[23:56:36] [INIT] Loaded plugins:
+[23:56:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:56:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:56:36] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:56:36] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[23:56:36] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[23:56:36] [INIT] - dev.taao.kubejspnc.KubeJSPneumaticCraftPlugin
+[23:56:36] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[23:56:36] [INIT] - com.bmaster.createrns.compat.kubejs.RNSKubeJSPlugin
+[23:56:36] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[23:56:36] [INIT] - dev.wolfieboy09.tfmgjs.TFMGJSPlugin
+[23:56:36] [INIT] - com.samir.pmwhelpers.ProductiveMetalworksKubeJSPlugin
+[23:56:36] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
+[23:56:36] [INFO] startup_scripts:p_materials_fluids.js#3: Hello, World! (You will only see this line once in console, during startup)
+[23:56:36] [INFO] startup_scripts:p_materials_fluids.js#6: Loaded Java class 'net.minecraft.sounds.SoundEvents'
+[23:56:36] [INFO] startup_scripts:p_materials_fluids.js#7: Loaded Java class 'net.minecraft.core.particles.ParticleTypes'
+[23:56:36] [INFO] Loaded script startup_scripts:p_materials_fluids.js in 0.1 s
+[23:56:36] [INFO] startup_scripts:p_materials_foodtest.js#3: Hello, World! (You will only see this line once in console, during startup)
+[23:56:36] [INFO] Loaded script startup_scripts:p_materials_foodtest.js in 0.002 s
+[23:56:36] [INFO] startup_scripts:p_materials_general.js#3: Hello, World! (You will only see this line once in console, during startup)
+[23:56:36] [INFO] Loaded script startup_scripts:p_materials_general.js in 0.003 s
+[23:56:36] [INFO] Loaded script startup_scripts:p_rns_deposits.js in 0.001 s
+[23:56:36] [INFO] Loaded script startup_scripts:p_utilities_creativetabs.js in 0.0 s
+[23:56:36] [INFO] Loaded 5/5 KubeJS startup scripts in 0.68 s with 0 errors and 0 warnings
+[23:56:36] [INFO] Validated 2443 files in kubejs/assets/ in 75ms
+[23:56:36] [INFO] Validated 15 files in kubejs/data/ in 1ms

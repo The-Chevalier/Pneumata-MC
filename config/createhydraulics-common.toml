@@ -1,0 +1,69 @@
+[hydraulicMotor]
+	#Hydro Fluid consumed by an active Hydraulic Motor, in mB per second PER 64 RPM
+	#(minimum 1 mB/s while running). Fuel cost scales with output: cruising at 16 RPM
+	#sips ~1 mB/s, full 256 RPM burns 4x this value.
+	# Default: 5
+	# Range: 0 ~ 100000
+	fluidPerSecond = 5
+	#Stress capacity the Hydraulic Motor provides per RPM. The Stress Units a motor
+	#supplies equal this value multiplied by its current speed (e.g. 64 × 16 RPM = 1024 su).
+	#At 64 a single motor at max RPM matches one Steam Engine block (16,384 su).
+	# Default: 64.0
+	# Range: 0.0 ~ 1000000.0
+	stressCapacityPerRpm = 64.0
+	#Linear part of the pressure (PU) the connected line must carry for the motor to run:
+	#required PU = pressurePerRpm × RPM + pressureQuadratic × RPM². The motor stalls
+	#(underpressured) until its line supplies at least that much.
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	pressurePerRpm = 2.0
+	#Quadratic part of the motor's pressure requirement (see pressurePerRpm). Makes high
+	#RPM cost disproportionately more pressure, like boiler tiers needing exponentially more
+	#heat. At the default a full 600 PU water column drives exactly 128 RPM (half speed),
+	#and max RPM (256) needs ~1,822 PU, most of a full line.
+	# Default: 0.02
+	# Range: 0.0 ~ 100.0
+	pressureQuadratic = 0.02
+
+[hydraulicFist]
+	#Pressure (PU) a Hydraulic Fist's line must carry for it to punch. Like Create stress this
+	#is a continuous load, not a consumed resource; if the combined load of every Fist and Press
+	#on a line exceeds its supplied pressure they all stall (underpressured).
+	# Default: 200.0
+	# Range: 0.0 ~ 100000.0
+	pressure = 200.0
+	#How many blocks ahead of its front face the Hydraulic Fist scans for a target and
+	#telescopes its fist out to reach (1 = only the directly adjacent block).
+	# Default: 4
+	# Range: 1 ~ 16
+	reach = 4
+
+[hydraulicDrill]
+	#Pressure (PU) a Hydraulic Drill's line must carry for it to break the block in front of
+	#it. Like Create stress this is a continuous load, not a consumed resource; if the combined
+	#load on a line exceeds its supplied pressure the machines on it stall (underpressured).
+	# Default: 300.0
+	# Range: 0.0 ~ 100000.0
+	pressure = 300.0
+
+[centrifugalCompressor]
+	#Pressure (PU) the Centrifugal Compressor pushes into its pipe network per RPM. The output
+	#equals this value multiplied by the shaft's current speed (e.g. 6 × 32 RPM = 192 PU), capped
+	#at the maximum a single line can hold. At the default a single compressor tops out at
+	#1,536 PU even at max speed, so filling a whole 2,048 PU line takes more than one.
+	# Default: 6.0
+	# Range: 0.0 ~ 100000.0
+	pressurePerRpm = 6.0
+	#Stress impact of the Centrifugal Compressor, in Stress Units consumed per RPM. This is a
+	#real load on the rotation network (like any Create machine): the faster it is driven, the
+	#more Stress Units it draws while it compresses. At the default the conversion costs 4 SU
+	#per PU produced, so kinetic pressure is a deliberate step up from free water sources.
+	# Default: 24.0
+	# Range: 0.0 ~ 100000.0
+	stressImpact = 24.0
+
+[pipes]
+	#Whether a pressurised open pipe end physically pushes nearby entities and items away.
+	#The hiss and mist play either way; this only toggles the shove. Push strength and reach
+	#scale with the line's pressure.
+	leakKnockback = true

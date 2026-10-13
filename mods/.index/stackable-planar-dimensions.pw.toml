@@ -1,0 +1,18 @@
+filename = 'stackable_planar_dimensions-1.9-neoforge-1.21.1.jar'
+name = 'Stackable Planar Dimensions'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.9'
+
+[download]
+hash = '79779284a206868cbadd553f9c9f6854b5b2e24e403b3156bcbb04e8e00d0ffebc2e5b81874c2995ee17d8fe3c28a0c6bfa083daa7c509ac55b56b5c2ca0c617'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ng3wlzPs/versions/PyG6tVYk/stackable_planar_dimensions-1.9-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'Ng3wlzPs'
+version = 'PyG6tVYk'

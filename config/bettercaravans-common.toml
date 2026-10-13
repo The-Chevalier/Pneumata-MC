@@ -1,3 +1,4 @@
+# Who walks in a caravan and what the pack animals carry.
 [Composition]
 	chested_loot_wheat_min = 4
 	enable_chested_animals = true
@@ -23,16 +24,17 @@
 	chested_loot_emerald_max = 3
 	max_animals = 2
 
+# When, where and how caravans appear and travel.
 [Spawning]
 	villager_move_speed = 0.18
 	min_distance_between_caravans = 180.0
+	stop_search_distance = 320.0
 	caravan_wander_min_seconds = 45
 	caravan_pause_max_seconds = 5
 	caravan_move_speed = 0.24
 	caravan_wander_max_distance = 96.0
 	spawn_max_distance = 140.0
 	raider_move_speed = 0.65
-	village_search_radius = 160
 	caravan_wander_min_distance = 40.0
 	min_spawn_delay_seconds = 600
 	caravan_pause_min_seconds = 2
@@ -40,18 +42,23 @@
 	caravan_wander_max_seconds = 120
 	caravan_pause_chance = 0.12
 	caravan_lifespan_days = 4
+	allowed_dimensions = ["minecraft:overworld"]
 	spawn_min_distance = 64.0
 	caravan_pause_check_interval_seconds = 18
 	despawn_distance = 220.0
 	spawn_chance = 0.65
+	village_search_chunk_radius = 24
 
+# How many trades the caravan leader offers.
 [Trading]
 	min_trades = 10
 	max_trades = 10
 
+# The /bettercaravans admin command tree.
 [Commands]
 	enable_commands = false
 
+# Caravan stop campsites generated in fresh chunks.
 [WorldGen]
 	stop_hay_bales_min = 2
 	stop_barrel_emerald_max = 4
@@ -67,6 +74,7 @@
 	stop_barrel_wheat_min = 6
 	stop_min_player_distance = 128
 
+# Pillager mini-raids on caravans and the rewards for repelling them.
 [Mini_Raid]
 	sound_radius = 40.0
 	check_interval_ticks = 40
@@ -86,7 +94,6 @@
 	raid_start_sound_volume = 1.0
 	xp_reward_for_raid = 8
 	enable_raid_start_sound = true
-	raid_start_sound_radius = 48.0
 	max_raiders = 5
 	max_discount_percent = 60
 	enable_raiders_glow = true
