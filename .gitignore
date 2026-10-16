@@ -17,3 +17,6 @@ usernamecache.json
 fabricloader.log
 ponders_watched.json
 options.txt
+servers.dat
+servers.dat_old
+/backups/
