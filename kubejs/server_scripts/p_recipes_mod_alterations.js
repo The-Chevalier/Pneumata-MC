@@ -283,6 +283,9 @@ event.recipes.pneumaticcraft.thermo_plant({
 	//Nether Slime
 	event.shapeless('minecraft:slime_ball', ['mynethersdelight:ghast_dough', 'minecraft:green_dye'])
 
+	//Super Early Game Nether Slime
+	event.shapeless('minecraft:slime_ball', ['minecraft:magma_cream', 'netherexp:black_icicle'])
+
 	//Thin Black Ice from Soul Magma
 	event.recipes.create.splashing('netherexp:thin_black_ice', 'netherexp:soul_magma_block')
 

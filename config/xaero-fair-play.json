@@ -1,0 +1,8 @@
+{
+  "configVersion": 1,
+  "enforceFairPlay": true,
+  "disableMinimap": false,
+  "allowMinimapCaveModeInNether": false,
+  "allowWorldMapCaveModeInNether": false,
+  "servers": {}
+}

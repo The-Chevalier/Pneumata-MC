@@ -138,14 +138,3 @@ event.create('basic_lens')
 //		.textureSide(Direction.DOWN, 'kubejs:block/broken_fabricator_bottom')
 
 //})
-
-BlockEvents.modification(event => {
-	event.modify('minecraft:crafting_table', block => {
-	  block.soundType = 'metal'
-	})
-	//event.modify('minecraft:end_portal_frame', block => {
-	//	block.destroySpeed = 3.1
-	//	.tagBlock("mineable/pickaxe")
-	//	.tagBlock("needs_diamond_tool")
-	 // })
-})

@@ -1,6 +1,6 @@
 filename = 'guardvillagers-2.4.12-1.21.1.jar'
 name = 'Guard Villagers'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

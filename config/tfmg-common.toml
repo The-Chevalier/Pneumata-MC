@@ -195,7 +195,7 @@
 			depositMaxReserves = 10000
 			#.
 			#Makes oil reservoirs bottomless.
-			infiniteDeposits = false
+			infiniteDeposits = true
 
 #.
 #Config options for TFMG's equipment

@@ -1,0 +1,21 @@
+filename = 'witchery_forbidden_magic-0.5.22+mc1.21.1.jar'
+name = 'JAWR: Forbidden Magic'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.5.22'
+
+[download]
+hash = '82ab39c952fafe04912f48e9ac2aab932e856d7653c39df8e53c9be415f048a994bce990d9fad8141cc502310afa08379f845daedb9a42a7fcbe5b4e9d500771'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pitZv4pV/versions/phVzi7fc/witchery_forbidden_magic-0.5.22%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'pitZv4pV'
+version = 'phVzi7fc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LCO8KZvC'
+type = 'REQUIRED'

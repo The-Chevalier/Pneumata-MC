@@ -14,10 +14,6 @@
     "result": "allow"
   },
   {
-    "mob": "minecraft:zombie",
-    "result": "deny"
-  },
-  {
     "mob": "scguns:cog_minion",
     "result": "deny"
   },
@@ -27,10 +23,6 @@
   },
   {
     "mob": "minecraft:drowned",
-    "result": "deny"
-  },
-  {
-    "mob": "scguns:hive",
     "result": "deny"
   },
   {

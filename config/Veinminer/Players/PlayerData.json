@@ -1,0 +1,31 @@
+{
+  "veinminer": {
+    "ed590f84-746c-4528-9a91-f44e459e1efd": true
+  },
+  "particles": {
+    "ed590f84-746c-4528-9a91-f44e459e1efd": {
+      "enabled": true,
+      "durationTicks": 60,
+      "red": 255,
+      "green": 0,
+      "blue": 0
+    }
+  },
+  "messages": {
+    "ed590f84-746c-4528-9a91-f44e459e1efd": {
+      "permission": true,
+      "disabled": true,
+      "cooldown": true,
+      "durability": true
+    }
+  },
+  "input": {
+    "ed590f84-746c-4528-9a91-f44e459e1efd": {
+      "useKeybind": false,
+      "keyToggle": false,
+      "keyToggleState": false,
+      "crouchToggle": false,
+      "crouchToggleState": false
+    }
+  }
+}

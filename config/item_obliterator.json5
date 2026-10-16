@@ -18,10 +18,7 @@
   "blacklisted_items": [
    "scguns:polar_generator", "scguns:lightning_rod_connector",
     "scguns:macerator", "scguns:powered_macerator", "scguns:powered_mechnical_press", "scguns:mechanical_press",
-    "scguns:polar_generator", "scguns:gun_bench", "scguns:saketini_ironport", "scguns:winnie_millend",
-    "scguns:winnie", "scguns:pax", "scguns:iron_spear", "scguns:rocket_rifle", "scguns:mokova",
-    "scguns:stiletto", "scguns:homemaker", "scguns:micina", "scguns:rg_jigsaw", "scguns:inertial",
-    "scguns:mas_55", "scguns:grandle_og",
+    "scguns:polar_generator", "scguns:gun_bench", 
     "createaddition:copper_wire", "createaddition:electrum_wire", "createaddition:spool", "createaddition:copper_spool",
     "createaddition:gold_spool", "createaddition:electrum_spool", "createaddition:festive_spool",
     "createaddition:rolling_mill", "createaddition:connector",

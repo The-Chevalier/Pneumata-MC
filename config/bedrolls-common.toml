@@ -1,0 +1,6 @@
+#Behavior when a bedroll is placed in the Nether or End (any dimension where beds don't work).
+#ALLOW: Bedrolls can be placed for decoration but won't set spawn. Right-clicking still explodes like a vanilla bed.
+#EXPLODE: Bedrolls explode immediately on placement (like beds when right-clicked)
+#DISALLOW: Bedrolls cannot be placed at all in these dimensions.
+#Allowed Values: ALLOW, EXPLODE, DISALLOW
+netherBedrollBehavior = "ALLOW"

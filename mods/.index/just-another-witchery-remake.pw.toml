@@ -1,0 +1,33 @@
+filename = 'witchery-0.5.22+mc1.21.1.jar'
+name = 'Just Another Witchery Remake'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.5.22'
+
+[download]
+hash = '15233b5a503488ac0925924100bb790062a265b02fe52ddc8bcb0afd82c9f65292945b7a595356949a2c9d10ef64adf54ddd5939afdd4276da158449e5e2e3b9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LCO8KZvC/versions/wco2IYFm/witchery-0.5.22%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LCO8KZvC'
+version = 'wco2IYFm'
+
+[[x-prismlauncher-dependencies]]
+addonId = '692GClaE'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaDC71GB'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ordsPcFz'
+type = 'REQUIRED'

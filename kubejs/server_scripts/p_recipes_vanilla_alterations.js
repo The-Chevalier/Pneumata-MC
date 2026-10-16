@@ -189,4 +189,13 @@ ServerEvents.recipes((event) => {
 		X: 'tfmg:steel_pipe',
 		P: 'minecraft:netherite_ingot'
 	})
+
+
+	//Nether Mushroom Stew
+	event.shapeless(Item.of('minecraft:mushroom_stew'), 
+	[
+		'minecraft:bowl',
+		'minecraft:crimson_fungus',
+		'minecraft:crimson_fungus'
+	])	
 })

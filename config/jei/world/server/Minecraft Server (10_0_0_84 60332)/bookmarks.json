@@ -1,0 +1,12 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"productivemetalworks:black_foundry_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivemetalworks:black_foundry_drain"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivemetalworks:black_foundry_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivemetalworks:black_fire_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivemetalworks:liquid_heating_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:very_crude_repair_kit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:crude_repair_kit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:copper_backtank","components":"{\"create:banktank_air\":900}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"minecraft:campfire","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

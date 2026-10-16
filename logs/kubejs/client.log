@@ -1,18 +1,18 @@
-[23:56:36] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
-[23:56:36] [INIT] Loaded plugins:
-[23:56:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[23:56:36] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[23:56:36] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[23:56:36] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
-[23:56:36] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[23:56:36] [INIT] - dev.taao.kubejspnc.KubeJSPneumaticCraftPlugin
-[23:56:36] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[23:56:36] [INIT] - com.bmaster.createrns.compat.kubejs.RNSKubeJSPlugin
-[23:56:36] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[23:56:36] [INIT] - dev.wolfieboy09.tfmgjs.TFMGJSPlugin
-[23:56:36] [INIT] - com.samir.pmwhelpers.ProductiveMetalworksKubeJSPlugin
-[23:56:36] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
-[23:56:36] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
-[23:56:36] [INFO] Loaded script client_scripts:main.js in 0.001 s
-[23:56:36] [INFO] Loaded 1/1 KubeJS client scripts in 0.04 s with 0 errors and 0 warnings
-[23:56:47] [INFO] Client resource reload complete!
+[16:03:24] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[16:03:24] [INIT] Loaded plugins:
+[16:03:24] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[16:03:24] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[16:03:24] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[16:03:24] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[16:03:24] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:03:24] [INIT] - dev.taao.kubejspnc.KubeJSPneumaticCraftPlugin
+[16:03:24] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[16:03:24] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[16:03:24] [INIT] - dev.wolfieboy09.tfmgjs.TFMGJSPlugin
+[16:03:24] [INIT] - com.bmaster.createrns.compat.kubejs.RNSKubeJSPlugin
+[16:03:24] [INIT] - com.samir.pmwhelpers.ProductiveMetalworksKubeJSPlugin
+[16:03:24] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
+[16:03:25] [INFO] client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[16:03:25] [INFO] Loaded script client_scripts:main.js in 0.001 s
+[16:03:25] [INFO] Loaded 1/1 KubeJS client scripts in 0.088 s with 0 errors and 0 warnings
+[16:03:36] [INFO] Client resource reload complete!

@@ -20,5 +20,5 @@
 	#The chance of giving the player the 'Hydratoxin' effect after drinking slightly dirty water. The value should be between 0 and 100. (Default: 18)
 	slightlyDirtyHydratoxinChance = 18
 	#The chance of giving the player the 'Hydratoxin' effect after drinking acceptable water. The value should be between 0 and 100. (Default: 5)
-	acceptableHydratoxinChance = 5
+	acceptableHydratoxinChance = 3
 

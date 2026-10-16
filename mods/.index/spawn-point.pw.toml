@@ -1,0 +1,18 @@
+filename = 'spawn_point-neoforge-1.21-1.0.0.jar'
+name = 'Spawn Point'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '97c6adf3e6d3384fb34be8ef447797934d33547911ebe6051841f8c859834adf41c1fa92bdd83bd8b69eec274e98818b47238cf6c60decefc7baa8529bfcbdf4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/D4y6AJ5H/versions/UuVi1Nye/spawn_point-neoforge-1.21-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'D4y6AJ5H'
+version = 'UuVi1Nye'

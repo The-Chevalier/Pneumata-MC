@@ -1,0 +1,18 @@
+filename = 'ThirstWasReclaimed-1.21.1-3.0.6.jar'
+name = 'Thirst Was Reclaimed'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.0.6'
+
+[download]
+hash = '7632cb528df7b42b8851431f41e1b26c570e18800e9f993b09306fcb04ff25caf47ee8a30d2803c1bad1b5d2f85e2daf49fe7ed27f5d9588802385e63dc99ceb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B9HAFlgU/versions/Y7Tm4V7W/ThirstWasReclaimed-1.21.1-3.0.6.jar'
+
+[update.modrinth]
+mod-id = 'B9HAFlgU'
+version = 'Y7Tm4V7W'
