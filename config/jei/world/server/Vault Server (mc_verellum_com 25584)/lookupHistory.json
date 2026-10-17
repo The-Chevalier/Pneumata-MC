@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"silentgear:rod_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:glowstone_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:warped_wart_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:axe_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
