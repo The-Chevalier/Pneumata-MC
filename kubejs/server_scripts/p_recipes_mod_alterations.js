@@ -104,35 +104,35 @@ ServerEvents.recipes((event) => {
 	}
 	)
 
-  event.recipes.create.pressing('scguns:anthralite_nugget', 'minecraft:coal')
+	event.recipes.create.pressing('scguns:anthralite_nugget', 'minecraft:coal')
 
-//Plastic Unification
-  event.replaceInput(
-  { input: 'pneumaticcraft:plastic' },         // Arg 1: the filter
-  'pneumaticcraft:plastic',                    // Arg 2: the item to replace
-  Ingredient.of('#c:ingots/plastic')  // Arg 3: the item to replace it with 
-  // Do /kjs hand with the items you want to use to see all their tags.
-)
+	//Plastic Unification
+	event.replaceInput(
+		{ input: 'pneumaticcraft:plastic' },         // Arg 1: the filter
+		'pneumaticcraft:plastic',                    // Arg 2: the item to replace
+		Ingredient.of('#c:ingots/plastic')  // Arg 3: the item to replace it with 
+		// Do /kjs hand with the items you want to use to see all their tags.
+	)
 
-event.replaceInput(
-  { input: 'tfmg:plastic_sheet' },         // Arg 1: the filter
-  'tfmg:plastic_sheet',                    // Arg 2: the item to replace
-  Ingredient.of('#c:ingots/plastic')  // Arg 3: the item to replace it with 
-  // Do /kjs hand with the items you want to use to see all their tags.
-)
+	event.replaceInput(
+		{ input: 'tfmg:plastic_sheet' },         // Arg 1: the filter
+		'tfmg:plastic_sheet',                    // Arg 2: the item to replace
+		Ingredient.of('#c:ingots/plastic')  // Arg 3: the item to replace it with 
+		// Do /kjs hand with the items you want to use to see all their tags.
+	)
 
-//Circuit Board Unification
-event.replaceInput(
-  { input: 'tfmg:circuit_board' },         // Arg 1: the filter
-  'tfmg:circuit_board',                    // Arg 2: the item to replace
-  Ingredient.of('pneumaticcraft:printed_circuit_board')  // Arg 3: the item to replace it with 
-  // Do /kjs hand with the items you want to use to see all their tags.
-)
+	//Circuit Board Unification
+	event.replaceInput(
+		{ input: 'tfmg:circuit_board' },         // Arg 1: the filter
+		'tfmg:circuit_board',                    // Arg 2: the item to replace
+		Ingredient.of('pneumaticcraft:printed_circuit_board')  // Arg 3: the item to replace it with 
+		// Do /kjs hand with the items you want to use to see all their tags.
+	)
 
-//PMW Melting TFMG Plastic into PNC Molten Plastic
-PMW.melt(event, 'tfmg:plastic_sheet', 'pneumaticcraft:plastic', 1000, 1000, 0, 1200)
+	//PMW Melting TFMG Plastic into PNC Molten Plastic
+	PMW.melt(event, 'tfmg:plastic_sheet', 'pneumaticcraft:plastic', 1000, 1000, 0, 1200)
 
-//Black Ice Infused Sail for Nether Washing
+	//Black Ice Infused Sail for Nether Washing
 	event.shaped(Item.of('dndesires:splashing_sail', 4), [
 		'WIW',
 		'ISI',
@@ -143,12 +143,12 @@ PMW.melt(event, 'tfmg:plastic_sheet', 'pneumaticcraft:plastic', 1000, 1000, 0, 1
 		S: 'minecraft:soul_sand'
 	})
 
-//PNC Minigun Ammo
+	//PNC Minigun Ammo
 	event.shapeless('pneumaticcraft:gun_ammo', ['2x minecraft:copper_ingot', '2x scguns:sheol', '2x scguns:depleted_diamond_steel_ingot'])
 
-//Voideye into Void Grit
+	//Voideye into Void Grit
 	event.recipes.create.crushing('kubejs:void_grit', 'minecraft:ender_eye')
-//Voideye from Void Pearl
+	//Voideye from Void Pearl
 	event.shaped('minecraft:ender_eye', [
 		' N ',
 		'NPN',
@@ -157,11 +157,11 @@ PMW.melt(event, 'tfmg:plastic_sheet', 'pneumaticcraft:plastic', 1000, 1000, 0, 1
 		P: 'minecraft:ender_pearl',
 		N: 'scguns:peal'
 	})
-//Grappling Hook From Silent Gear Pickaxe Head
-event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:pickaxe_head'])
-//-----------------------------------------------
-//SCORCHED GUNS FLARES
-//Making a separate section to keep track of them
+	//Grappling Hook From Silent Gear Pickaxe Head
+	event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:pickaxe_head'])
+	//-----------------------------------------------
+	//SCORCHED GUNS FLARES
+	//Making a separate section to keep track of them
 
 	event.shaped('scguns:antique_flare', [
 		' N ',
@@ -191,7 +191,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		S: '#c:dusts/copper', //Main thematic component
 		N: '#c:plates/copper', //Flare casing component
 		G: 'minecraft:gunpowder' //The fuel for the flare
-	})	
+	})
 
 	event.shaped('scguns:iron_flare', [
 		' N ',
@@ -201,7 +201,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		S: '#c:dusts/coal', //Main thematic component
 		N: '#c:plates/iron', //Flare casing component
 		G: 'minecraft:gunpowder' //The fuel for the flare
-	})		
+	})
 
 	event.shaped('scguns:wrecker_flare', [
 		' T ',
@@ -223,7 +223,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		N: '#c:plates/gold', //Flare casing component
 		G: 'minecraft:gunpowder', //The fuel for the flare
 		T: '#c:ingots/electrum' //Tipped part for more advanced flares
-	})	
+	})
 
 	event.shaped('scguns:diamond_steel_flare', [
 		' T ',
@@ -234,7 +234,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		N: 'scguns:depleted_diamond_steel_ingot', //Flare casing component
 		G: 'minecraft:gunpowder', //The fuel for the flare
 		T: '#c:gems/diamond' //Tipped part for more advanced flares
-	})	
+	})
 
 	event.shaped('scguns:treated_brass_flare', [
 		' T ',
@@ -245,7 +245,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		N: 'scguns:treated_brass_ingot', //Flare casing component
 		G: 'minecraft:gunpowder', //The fuel for the flare
 		T: '#c:ingots/iron' //Tipped part for more advanced flares
-	})		
+	})
 
 	event.shaped('scguns:ocean_flare', [
 		' T ',
@@ -256,7 +256,7 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		N: 'minecraft:prismarine_shard', //Flare casing component
 		G: 'minecraft:gunpowder', //The fuel for the flare
 		T: 'minecraft:prismarine_crystals' //Tipped part for more advanced flares
-	})	
+	})
 
 	event.shaped('scguns:sculk_flare', [
 		' T ',
@@ -269,13 +269,13 @@ event.shapeless('grapplemod:grapplinghook', ['minecraft:lead', 'silentgear:picka
 		T: 'minecraft:sculk_shrieker' //Tipped part for more advanced flares
 	})
 
-//Black Ice into Water	
-event.recipes.pneumaticcraft.thermo_plant({
-    inputs: { item: { amount: 1, item: 'netherexp:black_ice' }},
-    outputs: { fluid_output: { amount: 500, id: 'minecraft:water' } },
-    pressure: -0.9,
-    temperature: { min: 0}
-}).id('kubejs:thermo/netherwater')
+	//Black Ice into Water	
+	event.recipes.pneumaticcraft.thermo_plant({
+		inputs: { item: { amount: 1, item: 'netherexp:black_ice' } },
+		outputs: { fluid_output: { amount: 500, id: 'minecraft:water' } },
+		pressure: -0.9,
+		temperature: { min: 0 }
+	}).id('kubejs:thermo/netherwater')
 
 	//Nether Dough
 	event.shapeless('mynethersdelight:ghast_dough', ['mynethersdelight:strider_egg', 'minecraft:nether_wart'])
@@ -295,16 +295,39 @@ event.recipes.pneumaticcraft.thermo_plant({
 		'II'
 	], {
 		I: 'netherexp:thin_black_ice'
-	})	
+	})
 
-//Cactus from Nether
- event.recipes.create.haunting('minecraft:cactus', 'minecraft:warped_stem')
+	//Cactus from Nether
+	event.recipes.create.haunting('minecraft:cactus', 'minecraft:warped_stem')
 
-//Netherexp Silt into random materials 
-event.recipes.create.milling(
-	[CreateItem.of('minecraft:gold_nugget', 0.05), 
-		CreateItem.of('minecraft:iron_nugget', 0.05), 
-		CreateItem.of('create:copper_nugget', 0.05), 
-		CreateItem.of('create:zinc_nugget', 0.05)], 
-		'netherexp:silt') 
+	//Netherexp Silt into random materials 
+	event.recipes.create.milling(
+		[CreateItem.of('minecraft:gold_nugget', 0.05),
+		CreateItem.of('minecraft:iron_nugget', 0.05),
+		CreateItem.of('create:copper_nugget', 0.05),
+		CreateItem.of('create:zinc_nugget', 0.05)],
+		'netherexp:silt')
+
+	//Stone anvil in nether
+	event.recipes.shaped('silentgear:stone_anvil', [
+		'   ',
+		' R ',
+		'RSR'
+	], {
+		R: 'minecraft:netherrack',
+		S: '#c:dirts'
+	})
+
+	//Tip Template from quartz
+	event.recipes.shaped('silentgear:tip_template', [
+		'TT ',
+		'PQ ',
+		'   '
+	], {
+		T: 'silentgear:template_board',
+		P: 'minecraft:paper',
+		Q: 'minecraft:quartz'
+	})
+	event.shapeless('minecraft:potion[potion_contents={potion:"minecraft:awkward"}]', ['minecraft:warped_fungus', 'minecraft:glass_bottle'])
+	event.recipes.create.milling('chemica:quartz_dust', '#c:gems/quartz')
 })
