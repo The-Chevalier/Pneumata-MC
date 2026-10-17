@@ -329,5 +329,5 @@ ServerEvents.recipes((event) => {
 		Q: 'minecraft:quartz'
 	})
 	event.shapeless('minecraft:potion[potion_contents={potion:"minecraft:awkward"}]', ['minecraft:warped_fungus', 'minecraft:glass_bottle'])
-	event.recipes.create.milling('chemica:quartz_dust', '#c:gems/quartz')
+	event.recipes.create.milling([CreateItem.of('chemica:quartz_dust', 1)], 'minecraft:quartz')
 })
