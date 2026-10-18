@@ -1,9 +1,18 @@
 {
   "recent": {
     "ITEM": [
+      "silentgear:pickaxe_head",
+      "protection_pixel:chestplatelining",
+      "create:cogwheel",
+      "create:electron_tube",
+      "silentgear:shovel_head",
       "silentgear:stone_anvil"
     ],
     "ITEM_TAG": [
+      "c:ingots/iron",
+      "c:ingots/andesite_alloy",
+      "c:ingots/brass",
+      "c:plates/brass",
       "c:cobblestones"
     ]
   },
