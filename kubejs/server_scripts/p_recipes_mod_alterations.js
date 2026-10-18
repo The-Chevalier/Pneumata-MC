@@ -356,7 +356,7 @@ ServerEvents.recipes((event) => {
 		S: '#c:strings',
 		L: 'minecraft:leather'
 	})
-    event.recipes.create.mixing([Fluid.of('minecraft:water', 1000), 'minecraft:soul_sand'], [Fluid.of('netherexp:ectoplasm', 1000), 'minecraft:soul_soil']).heated()
+	event.recipes.create.mixing([Fluid.of('minecraft:water', 1000), 'minecraft:soul_sand'], [Fluid.of('netherexp:ectoplasm', 1000), 'minecraft:soul_soil']).heated()
 	//Wool from flax string
 	event.shaped('minecraft:white_wool', [
 		'SS ',
@@ -365,4 +365,29 @@ ServerEvents.recipes((event) => {
 	], {
 		S: '#c:strings'
 	})
+
+	if (Platform.isLoaded('silentgear')) {
+		// Fix recipe to use parts
+		event.remove({ output: 'silentgear:spoon_upgrade' })
+		event.shapeless('silentgear:spoon_upgrade', ['silentgear:advanced_upgrade_base', 'silentgear:shovel_head']).group('rapid_prototype')
+	}
+
+	if (Platform.isLoaded('create') && Platform.isLoaded('protection_pixel')) {
+		// Fix recipe to use parts
+		event.remove({ output: 'protection_pixel:pioneer_chestplate' })
+		event.recipes.create.mechanical_crafting('protection_pixel:pioneer_chestplate', [
+			' A A ',
+			'BCDCB',
+			'EBFBE',
+			'GHBHG'], {
+			A: '#c:plates/brass',
+			B: '#c:ingots/brass',
+			C: 'create:cogwheel',
+			D: 'create:electron_tube',
+			E: '#c:ingots/andesite_alloy',
+			F: 'protection_pixel:chestplatelining',
+			G: 'silentgear:pickaxe_head',
+			H: '#c:ingots/iron'
+		})
+	}
 })
