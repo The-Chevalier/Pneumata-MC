@@ -357,4 +357,12 @@ ServerEvents.recipes((event) => {
 		L: 'minecraft:leather'
 	})
     event.recipes.create.mixing([Fluid.of('minecraft:water', 1000), 'minecraft:soul_sand'], [Fluid.of('netherexp:ectoplasm', 1000), 'minecraft:soul_soil']).heated()
+	//Wool from flax string
+	event.shaped('minecraft:white_wool', [
+		'SS ',
+		'SS ',
+		'   '
+	], {
+		S: '#c:strings'
+	})
 })
