@@ -328,6 +328,33 @@ ServerEvents.recipes((event) => {
 		P: 'minecraft:paper',
 		Q: 'minecraft:quartz'
 	})
+
+	// Water for nether
 	event.shapeless('minecraft:potion[potion_contents={potion:"minecraft:awkward"}]', ['minecraft:warped_fungus', 'minecraft:glass_bottle'])
+
+	//Early game quartz dust
 	event.recipes.create.milling([CreateItem.of('chemica:quartz_dust', 1)], 'minecraft:quartz')
+
+	//Fix grapple base upgrade recipe to use tags
+	event.remove({ output: 'grapplemod:baseupgradeitem' })
+	event.shaped('grapplemod:baseupgradeitem', [
+		' G ',
+		'GSG',
+		' S '
+	], {
+		G: '#c:ingots/gold',
+		S: '#c:strings'
+	})
+
+	//Fix canteen recipe to use tags
+	event.remove({ output: 'watercanteens:empty-leather-canteen' })
+	event.shaped('watercanteens:empty-leather-canteen', [
+		'SLS',
+		'L L',
+		'LLL'
+	], {
+		S: '#c:strings',
+		L: 'minecraft:leather'
+	})
+    event.recipes.create.mixing([Fluid.of('minecraft:water', 1000), 'minecraft:soul_sand'], [Fluid.of('netherexp:ectoplasm', 1000), 'minecraft:soul_soil']).heated()
 })
