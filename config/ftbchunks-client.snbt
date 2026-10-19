@@ -138,24 +138,24 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:wither_skeleton": true
-			"minecraft:strider": true
-			"luminous_nether:revenant_skeleton": true
-			"minecraft:hoglin": true
-			"minecraft:blaze": true
-			"minecraft:skeleton": true
-			"netherexp:apparition": true
-			"minecraft:zombified_piglin": true
+			"scguns:hornlin": true
 			"luminous_nether:soul_furnace": true
+			"luminous_nether:revenant_skeleton": true
 			"minecraft:zombie": true
-			"minecraft:piglin": true
 			"minecraft:enderman": true
+			"minecraft:strider": true
+			"minecraft:wither_skeleton": true
+			"minecraft:skeleton": true
+			"minecraft:hoglin": true
 			"luminous_nether:warped_mushlin_king": true
+			"minecraft:piglin": true
+			"minecraft:blaze": true
+			"netherexp:ecto_slab": true
+			"minecraft:zombified_piglin": true
 			"netherexp:vessel": true
+			"netherexp:apparition": true
 			"minecraft:skeleton_horse": true
 			"luminous_nether:crimson_walker": true
-			"netherexp:ecto_slab": true
-			"scguns:hornlin": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
