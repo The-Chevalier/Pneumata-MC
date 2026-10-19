@@ -200,7 +200,7 @@ ServerEvents.recipes((event) => {
 		])
 
 
-	event.shaped('minecraft:gilded_blackstone', ['AAA', 'ABA', 'AAA'], {
+	event.shaped('8x minecraft:gilded_blackstone', ['AAA', 'ABA', 'AAA'], {
 		A: '#chipped:blackstone',
 		B: 'minecraft:gold_nugget'
 	})

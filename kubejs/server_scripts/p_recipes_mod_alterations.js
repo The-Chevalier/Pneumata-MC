@@ -403,7 +403,14 @@ ServerEvents.recipes((event) => {
 		F: 'create:transmitter'
 	})
 
-
+	// add coal dust to crushing wheel output
+	// coal to 2 black dye, 0.1 gray day, and 1 coal dust
+	event.remove({ output: 'chemica:coal_dust', type: 'create:crushing' })
+	event.recipes.create.crushing([
+		CreateItem.of('chemica:coal_dust', 1), 
+		CreateItem.of('minecraft:black_dye', 2), 
+		CreateItem.of('minecraft:gray_dye', 0.1)],
+		 'minecraft:coal')
 
 
 
