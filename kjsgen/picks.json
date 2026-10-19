@@ -1,6 +1,8 @@
 {
   "recent": {
     "ITEM": [
+      "minecraft:gilded_blackstone",
+      "minecraft:gold_nugget",
       "silentgear:pickaxe_head",
       "protection_pixel:chestplatelining",
       "create:cogwheel",
@@ -9,6 +11,7 @@
       "silentgear:stone_anvil"
     ],
     "ITEM_TAG": [
+      "chipped:blackstone",
       "c:ingots/iron",
       "c:ingots/andesite_alloy",
       "c:ingots/brass",

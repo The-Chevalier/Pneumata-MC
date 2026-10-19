@@ -3,7 +3,7 @@
     "mustSneak": false,
     "delay": 0,
     "maxChain": 100,
-    "needCorrectTool": true,
+    "needCorrectTool": false,
     "searchRadius": 1,
     "permissionRestricted": false,
     "mergeItemDrops": false,
