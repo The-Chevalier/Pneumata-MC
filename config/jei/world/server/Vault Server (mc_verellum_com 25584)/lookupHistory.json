@@ -1,11 +1,13 @@
 [
   {"version":1},
+  {"ingredient":{"id":"scguns:iron_flare"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chemica:coal_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"scguns:copper_flare"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:gilded_blackstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"scguns:flare_pistol"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"scguns:repeating_musket","components":"{\"minecraft:custom_data\":{AmmoCount:5,GeckoLibID:9L},\"minecraft:damage\":245}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"scguns:gun_grip"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"chemica:copper_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"scguns:copper_flare"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"scguns:treated_brass_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:magma_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:obsidian"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -97,7 +99,5 @@
   {"ingredient":{"id":"scguns:reflex_sight"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"scguns:wooden_stock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfmg:screw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"scguns:callwell_terminal","components":"{\"minecraft:custom_data\":{AmmoCount:6,Attachments:{},DrawnTick:79,GeckoLibID:5L,IsDrawing:1b,IsDrawn:1b},\"minecraft:damage\":82}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"silentgear:blueprint_paper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"silentgear:paxel_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"scguns:callwell_terminal","components":"{\"minecraft:custom_data\":{AmmoCount:6,Attachments:{},DrawnTick:79,GeckoLibID:5L,IsDrawing:1b,IsDrawn:1b},\"minecraft:damage\":82}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

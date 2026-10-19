@@ -199,11 +199,10 @@ ServerEvents.recipes((event) => {
 			'minecraft:crimson_fungus'
 		])
 
-	// Gilded blackstone
-	ServerEvents.recipes(event => {
-		event.shaped('minecraft:gilded_blackstone', ['AAA', 'ABA', 'AAA'], {
-			A: '#chipped:blackstone',
-			B: 'minecraft:gold_nugget'
-		})
+
+	event.shaped('minecraft:gilded_blackstone', ['AAA', 'ABA', 'AAA'], {
+		A: '#chipped:blackstone',
+		B: 'minecraft:gold_nugget'
 	})
+
 })

@@ -391,18 +391,20 @@ ServerEvents.recipes((event) => {
 		})
 	}
 
-	ServerEvents.recipes(event => {
-		// fix recipe to use parts
-		event.remove({ output: 'createbionics:seeker_item' })
-		event.shaped('createbionics:seeker_item', ['ABA', 'CDC', 'EFE'], {
-			A: 'create:electron_tube',
-			B: 'silentgear:pickaxe_head',
-			C: 'create:andesite_alloy',
-			D: 'minecraft:furnace',
-			E: 'create:shaft',
-			F: 'create:transmitter'
-		})
+
+	// fix recipe to use parts
+	event.remove({ output: 'createbionics:seeker_item' })
+	event.shaped('createbionics:seeker_item', ['ABA', 'CDC', 'EFE'], {
+		A: 'create:electron_tube',
+		B: 'silentgear:pickaxe_head',
+		C: 'create:andesite_alloy',
+		D: 'minecraft:furnace',
+		E: 'create:shaft',
+		F: 'create:transmitter'
 	})
 
-	
+
+
+
+
 })
