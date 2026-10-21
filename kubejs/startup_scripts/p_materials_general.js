@@ -117,7 +117,7 @@ event.create('basic_lens')
 	// upgrade kit paraphernalia
 	event.create('upgrade_kit_case')
 		.displayName('Upgrade Kit Case')
-		.maxStackSize(1);
+		.maxStackSize(64);
 });
 
 

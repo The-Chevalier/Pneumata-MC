@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "name": "default",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "2309dc73-979b-45bc-90e9-b0f141bd28d9",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "silentgear:stone_anvil"
+        }
+      },
+      "params": {}
+    }
+  ],
+  "removals": []
+}
