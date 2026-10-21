@@ -412,6 +412,7 @@ ServerEvents.recipes((event) => {
 		CreateItem.of('minecraft:gray_dye', 0.1)],
 		 'minecraft:coal')
 
-
+	event.shapeless('createaddition:copper_spool', ['tfmg:copper_spool'])
+	event.shapeless('tfmg:copper_spool', ['createaddition:copper_spool'])
 
 })
