@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:witch": true
-			"artifacts:mimic": true
-			"luminous_nether:revenant_skeleton": true
+			"netherexp:vessel": true
+			"minecraft:axolotl": true
+			"minecraft:magma_cube": true
+			"minecraft:spider": true
+			"minecraft:parrot": true
+			"minecraft:piglin": true
+			"minecraft:bat": true
+			"netherexp:ecto_slab": true
+			"minecraft:strider": true
+			"scguns:hornlin": true
+			"minecraft:enderman": true
+			"minecraft:pig": true
+			"netherexp:apparition": true
+			"minecraft:wither_skeleton": true
+			"minecraft:skeleton": true
+			"scguns:redcoat": true
+			"minecraft:mule": true
 			"minecraft:horse": true
 			"minecraft:zombie": true
-			"netherexp:apparition": true
-			"scguns:hornlin": true
-			"scguns:redcoat": true
-			"minecraft:spider": true
-			"netherexp:ecto_slab": true
-			"minecraft:wither_skeleton": true
-			"netherexp:vessel": true
-			"minecraft:bat": true
-			"luminous_nether:soul_furnace": true
-			"luminous_nether:crimson_walker": true
-			"minecraft:parrot": true
-			"embers:ancient_golem": true
-			"minecraft:blaze": true
-			"minecraft:enderman": true
-			"minecraft:axolotl": true
-			"minecraft:tropical_fish": false
-			"minecraft:mule": true
 			"minecraft:skeleton_horse": true
-			"minecraft:pig": true
-			"luminous_nether:warped_mushlin_king": true
-			"minecraft:villager": true
-			"minecraft:zombified_piglin": true
 			"minecraft:squid": true
+			"luminous_nether:warped_mushlin_king": true
+			"minecraft:witch": true
+			"minecraft:tropical_fish": false
 			"minecraft:zombie_horse": true
-			"minecraft:strider": true
-			"minecraft:skeleton": true
-			"minecraft:piglin": true
-			"minecraft:magma_cube": true
+			"artifacts:mimic": true
+			"minecraft:villager": true
+			"minecraft:blaze": true
+			"luminous_nether:crimson_walker": true
 			"minecraft:hoglin": true
+			"embers:ancient_golem": true
+			"luminous_nether:revenant_skeleton": true
+			"minecraft:zombified_piglin": true
+			"luminous_nether:soul_furnace": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
