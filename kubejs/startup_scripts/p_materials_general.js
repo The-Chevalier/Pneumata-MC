@@ -122,19 +122,14 @@ event.create('basic_lens')
 
 
 
-//StartupEvents.registry('block', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
-// Dont really need these anymore
-	//General Blocks
-//	event.create('fabricator_casing')
-//		.material('metal')
-//		.textureSide(Direction.UP, 'kubejs:block/fabricator_casing_top')
-//		.textureSide(Direction.DOWN, 'kubejs:block/fabricator_casing_bottom')
-
-//	event.create('broken_fabricator')
-//		.material('metal')
-//		.textureSide(Direction.UP, 'kubejs:block/broken_fabricator_top')
-//		.textureSide(Direction.DOWN, 'kubejs:block/broken_fabricator_bottom')
-
-//})
+StartupEvents.registry('block', event => {
+  event.create('black_ice_deposit_block') // Create a new block
+    .displayName('Black Ice Deposit') // Set a custom name
+    .soundType('stone') // Set a material (affects the sounds and some properties)
+    .hardness(10) // Set hardness (affects mining time)
+    .resistance(10) // Set resistance (to explosions, etc)
+    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+    .tagBlock('create_rns:deposit_blocks')
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_diamond_tool')
+})

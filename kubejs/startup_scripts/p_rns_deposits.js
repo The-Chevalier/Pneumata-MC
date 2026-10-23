@@ -13,6 +13,15 @@ StartupEvents.rnsDepositStructures(event => {
 //    .preset('overworld_common')
     .scannerIcon('minecraft:raw_iron')
     .mapIcon('minecraft:raw_iron')
+
+
+  event.create('kubejs:black_ice_deposit')
+    .block('kubejs:black_ice_deposit_block')
+    .displayName('Black Ice Deposit')
+    .preset('nether_common')
+    .scannerIcon('netherexp:black_icicle')
+    .mapIcon('kubejs:black_ice_deposit_block')
+    .biome('netherexp:black_ice_glaciers')
 })
 
 StartupEvents.rnsEnableDeposits(event => {
@@ -41,6 +50,7 @@ StartupEvents.rnsEnableDeposits(event => {
   event.nether()
     .deposit('create_rns:deposit_nether_gold', true)
     .deposit('kubejs:nether_iron_deposit', true)
+    .deposit('kubejs:black_ice_deposit', true)
     .deposit('create_rns:deposit_nether_quartz', true)
     .deposit('create_rns:deposit_nether_cobalt', false)
     .deposit('create_rns:deposit_nether_wolframite', false)
