@@ -45,6 +45,7 @@ ServerEvents.recipes((event) => {
 	event.remove({ output: 'dndesires:splashing_sail' }) 
 	event.remove({ output: 'pneumaticcraft:gun_ammo' }) 	
 	event.remove({ id: 'grapplemod:grapplebow' })
+	event.remove({ id: 'productivemetalworks:alloying/molten_steel'})
 })
 
 

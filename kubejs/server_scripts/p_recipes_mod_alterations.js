@@ -415,4 +415,23 @@ ServerEvents.recipes((event) => {
 	event.shapeless('createaddition:copper_spool', ['tfmg:copper_spool'])
 	event.shapeless('tfmg:copper_spool', ['createaddition:copper_spool'])
 
+	//Old PMW Steel Alloying makes Cast Iron
+//Creating Molten Cast Iron from Iron and Carbon
+PMW.alloy(event, 'kubejs:molten_cast_iron', 360, [
+  { fluid: '#c:molten_iron', amount: 90 },
+  { fluid: 'productivemetalworks:molten_carbon', amount: 100 }
+])
+//Casting the Cast Iron
+//Nugget
+PMW.itemCast(event, 'tfmg:cast_iron_nugget', 
+	'productivemetalworks:ingot_cast', 
+	'kubejs:molten_cast_iron', 9)
+//Ingot
+PMW.itemCast(event, 'tfmg:cast_iron_ingot', 
+	'productivemetalworks:ingot_cast', 
+	'kubejs:molten_cast_iron', 90)
+//Block
+PMW.blockCast(event, 'tfmg:cast_iron_block',
+	'minecraft:air', 
+	'kubejs:molten_cast_iron', 900)
 })
