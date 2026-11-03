@@ -1,10 +1,10 @@
 // You can assign common yields to a variable and use them in multiple places.
-const debrisYield = y => y
-    .chance(0.002)
-    .item('minecraft:raw_iron_block')
-    .catalyst('create_rns:resonance')
-    .catalyst('create_rns:overclock')
-    .jeiSlotColor("#8572BF")
+//const debrisYield = y => y
+//    .chance(0.002)
+//    .item('minecraft:raw_iron_block')
+//    .catalyst('create_rns:resonance')
+//    .catalyst('create_rns:overclock')
+//    .jeiSlotColor("#8572BF")
 
 ServerEvents.recipes(event => {
   event.recipes.create_rns.mining()
@@ -78,4 +78,75 @@ ServerEvents.recipes(event => {
         .catalyst('create_rns:overclock')
         .jeiSlotColor("#72ACBF"))
     .id('kubejs:nether_iron_deposit')
+
+
+  event.recipes.create_rns.mining()
+    // Deposit block to which this recipe applies. Must be a single block.
+    .block('kubejs:black_ice_deposit_block')
+    // If there is only one recipe for a deposit block, it works in any dimension.
+    // Use this to create multiple dimension-specific recipes.
+    .nether()
+    .replaceWhenDepleted('create_rns:depleted_deposit_block')
+    // Applicable only if finite deposits are enabled in server config.
+    // Goes from 200000 +-20% uses in the horizontal center of a vein and down to 75000 +-20% on the edges.
+    .durability(200000, 75000, 0.2)
+    // Each yield is independent of other yields. This will produce 1 netherrack on each cycle.
+    .yield(y => y
+        .item('minecraft:netherrack'))
+    // Drops soul sand with a 50% chance, soul soil with a 40% chance, and magma block with a 10% chance on each cycle.
+    .yield(y => y
+        .item('minecraft:soul_sand', 5)
+        .item('minecraft:soul_soil', 4)
+        .item('netherexp:soul_magma_block', 2))
+    // 0.05% chance to get a resonant amethyst.
+    .yield(y => y
+        .item('create_rns:resonant_amethyst', 2)
+        .catalyst('create_rns:overclock'))
+    // 1% to get netherite scrap when both catalysts are active.
+    .yield(y => y
+        .chance(0.1)
+        .item('netherexp:black_icicle')
+        .catalyst('create_rns:faint_resonance')
+        .catalyst('create_rns:overclock')
+        .jeiSlotColor("#968CB3"))
+    // Compat items are allowed to reference non-existent item ids without invalidating the recipe.
+    .yield(y => y
+        .chance(0.1)
+        .item('netherexp:black_ice')
+        .catalyst('create_rns:resonance')
+        .catalyst('create_rns:overclock')
+        .jeiSlotColor("#8572BF"))
+    // Using a variable defined at the top.
+    .yield(debrisYield)
+    .yield(y => y
+        .item('minecraft:blackstone')
+        .item('minecraft:basalt')
+        .item('netherexp:wither_bone_block')
+        .catalyst('create_rns:faint_shattering_resonance')
+        .jeiSlotColor("#B28F8E"))
+    .yield(y => y
+        .chance(0.2)
+        .item('create:crimsite')
+        .item('create:veridium')
+        .item('create:asurine')
+        .item('create:ochrum')
+        .catalyst('create_rns:shattering_resonance')
+        .catalyst('create_rns:overclock')
+        .jeiSlotColor("#BF7672"))
+    .yield(y => y
+        .chance(0.1)
+        .item('scguns:sheol_dust')
+        .item('minecraft:glowstone_dust')
+        .item('scguns:sulfur_dust')
+        .catalyst('create_rns:faint_stabilizing_resonance')
+        .catalyst('create_rns:overclock')
+        .jeiSlotColor("#8EA9B2"))
+    .yield(y => y
+        .chance(0.02)
+        .item('netherexp:black_ice', 5)
+        .item('silentgear:crimson_iron_dust')
+        .catalyst('create_rns:stabilizing_resonance')
+        .catalyst('create_rns:overclock')
+        .jeiSlotColor("#72ACBF"))
+    .id('kubejs:black_ice_deposit')    
 })

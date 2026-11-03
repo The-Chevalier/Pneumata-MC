@@ -54,4 +54,20 @@ StartupEvents.registry('fluid', event => {
       .fallDistanceModifier(0)
       .addDripstoneDripping(1, $ParticleTypes.DRIPPING_DRIPSTONE_WATER, 'minecraft:water_cauldron', $SoundEvents.POINTED_DRIPSTONE_DRIP_WATER)
     )
+
+    event.create('molten_cast_iron')
+    .tint(0xE5C1FF)
+    .displayName('Molten Cast Iron')
+    .tint(0xff6600)
+    .slopeFindDistance(2)
+    .type(type => type
+      .renderType(0)
+      .stillTexture('kubejs:block/thick_fluid_still')
+      .flowingTexture('kubejs:block/thick_fluid_flow')
+      .canSwim(false)
+      .canDrown(false)
+      .density(3000)
+      .viscosity(6000)
+  )
+  .noBlock()
 });

@@ -2,7 +2,7 @@
   "configVersion": 1,
   "enforceFairPlay": true,
   "disableMinimap": false,
-  "allowMinimapCaveModeInNether": false,
-  "allowWorldMapCaveModeInNether": false,
+  "allowMinimapCaveModeInNether": true,
+  "allowWorldMapCaveModeInNether": true,
   "servers": {}
 }

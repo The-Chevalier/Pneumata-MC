@@ -1,0 +1,17 @@
+filename = 'xmmp-1.2.2+1.21.1-neoforge.jar'
+name = "Xaero's Maps: Multiplayer+"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.2+1.21.1-neoforge for neoforge 1.21.1'
+
+[download]
+hash = '32e25dd45a678af2460b5fb2012e16fcb7f123ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9194850
+project-id = 1525919
