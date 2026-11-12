@@ -1,0 +1,49 @@
+{
+  "title": "First Tools",
+  "description": "This strange realm requires you to procure tools that are able to reshape the world around you. You will need to take the blueprints you awoke with and use them to fashion tools!",
+  "icon": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "chapter": "general_beginnings",
+  "sort_order": 0,
+  "include_in_main": true,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft any pickaxe head",
+      "icon": {
+        "item": "silentgear:pickaxe_head"
+      },
+      "item": "silentgear:pickaxe_head",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft any tool rod",
+      "icon": {
+        "item": "silentgear:rod"
+      },
+      "item": "silentgear:rod",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Combine the pickaxe head and tool rod to form a pickaxe",
+      "item": "silentgear:pickaxe",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "silentgear:stone_anvil",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "item": "silentgear:template_board",
+      "count": 12
+    }
+  ]
+}

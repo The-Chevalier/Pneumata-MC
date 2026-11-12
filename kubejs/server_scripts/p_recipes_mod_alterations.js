@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
 	event.shapeless('4x tfmg:plastic_sheet', 'chemica:polyvinyl_chloride_sheet')
 
 	// mixing tfmg steel
-	event.recipes.create.mixing(Fluid.of('tfmg:molten_steel', 144), ['tfmg:limesand', 'minecraft:raw_iron', 'tfmg:coal_coke_dust']).heated();
+	//event.recipes.create.mixing(Fluid.of('tfmg:molten_steel', 144), ['tfmg:limesand', 'minecraft:raw_iron', 'tfmg:coal_coke_dust']).heated();
 
 	// basalt
 	event.recipes.create.mixing('minecraft:basalt', [Fluid.of('minecraft:lava', 500), 'chemica:quartz_dust', 'minecraft:cobbled_deepslate']).heated();

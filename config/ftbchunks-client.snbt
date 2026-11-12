@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"netherexp:vessel": true
-			"minecraft:axolotl": true
-			"minecraft:magma_cube": true
-			"minecraft:spider": true
-			"minecraft:parrot": true
-			"minecraft:piglin": true
-			"minecraft:bat": true
-			"netherexp:ecto_slab": true
-			"minecraft:strider": true
-			"scguns:hornlin": true
-			"minecraft:enderman": true
-			"minecraft:pig": true
-			"netherexp:apparition": true
-			"minecraft:wither_skeleton": true
-			"minecraft:skeleton": true
 			"scguns:redcoat": true
-			"minecraft:mule": true
-			"minecraft:horse": true
-			"minecraft:zombie": true
-			"minecraft:skeleton_horse": true
-			"minecraft:squid": true
-			"luminous_nether:warped_mushlin_king": true
 			"minecraft:witch": true
+			"minecraft:blaze": true
+			"netherexp:ecto_slab": true
+			"embers:ancient_golem": true
+			"netherexp:vessel": true
+			"scguns:hornlin": true
+			"minecraft:wither_skeleton": true
+			"minecraft:hoglin": true
+			"minecraft:strider": true
+			"minecraft:horse": true
+			"minecraft:skeleton": true
+			"minecraft:mule": true
+			"minecraft:piglin": true
+			"luminous_nether:soul_furnace": true
+			"minecraft:axolotl": true
 			"minecraft:tropical_fish": false
+			"minecraft:pig": true
+			"minecraft:parrot": true
 			"minecraft:zombie_horse": true
+			"minecraft:zombie": true
 			"artifacts:mimic": true
 			"minecraft:villager": true
-			"minecraft:blaze": true
-			"luminous_nether:crimson_walker": true
-			"minecraft:hoglin": true
-			"embers:ancient_golem": true
-			"luminous_nether:revenant_skeleton": true
+			"minecraft:skeleton_horse": true
 			"minecraft:zombified_piglin": true
-			"luminous_nether:soul_furnace": true
+			"luminous_nether:crimson_walker": true
+			"minecraft:magma_cube": true
+			"luminous_nether:revenant_skeleton": true
+			"netherexp:apparition": true
+			"minecraft:enderman": true
+			"minecraft:bat": true
+			"minecraft:spider": true
+			"luminous_nether:warped_mushlin_king": true
+			"minecraft:squid": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

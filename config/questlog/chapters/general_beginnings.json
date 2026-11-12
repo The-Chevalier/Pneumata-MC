@@ -1,0 +1,9 @@
+{
+  "name": "Vessel's Beginnings",
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "order": 0,
+  "default_chapter": false,
+  "hidden": false
+}

@@ -22,6 +22,13 @@ StartupEvents.rnsDepositStructures(event => {
     .scannerIcon('netherexp:black_icicle')
     .mapIcon('kubejs:black_ice_deposit_block')
     .biome('netherexp:black_ice_glaciers')
+
+  event.create('kubejs:fossil_fuel_deposit')
+    .block('kubejs:fossil_fuel_deposit_block')
+    .displayName('Fossil Fuel Deposit')
+    .preset('nether_common')
+    .scannerIcon('netherexp:fossil_fuel')
+    .mapIcon('kubejs:fossil_fuel_deposit_block')
 })
 
 StartupEvents.rnsEnableDeposits(event => {
@@ -51,6 +58,7 @@ StartupEvents.rnsEnableDeposits(event => {
     .deposit('create_rns:deposit_nether_gold', true)
     .deposit('kubejs:nether_iron_deposit', true)
     .deposit('kubejs:black_ice_deposit', true)
+    .deposit('kubejs:fossil_fuel_deposit', true)
     .deposit('create_rns:deposit_nether_quartz', true)
     .deposit('create_rns:deposit_nether_cobalt', false)
     .deposit('create_rns:deposit_nether_wolframite', false)

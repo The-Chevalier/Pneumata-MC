@@ -132,4 +132,16 @@ StartupEvents.registry('block', event => {
     .tagBlock('create_rns:deposit_blocks')
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_diamond_tool')
+
+  event.create('fossil_fuel_deposit_block') // Create a new block
+    .displayName('Fossil Fuel Deposit') // Set a custom name
+    .soundType('stone') // Set a material (affects the sounds and some properties)
+    .hardness(10) // Set hardness (affects mining time)
+    .resistance(10) // Set resistance (to explosions, etc)
+    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+    .tagBlock('create_rns:deposit_blocks')
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_diamond_tool')
 })
+
+

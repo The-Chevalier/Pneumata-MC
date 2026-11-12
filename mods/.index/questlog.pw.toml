@@ -1,0 +1,21 @@
+filename = 'questlog-neoforge-1.21.1-3.5.4.jar'
+name = 'Questlog'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.5.4-1.21.1-neoforge'
+
+[download]
+hash = '818b2b105f632b88ecc7672c5434bdc3b88808aac59e4f193027f66f4fd9681eb4d2b5f4e997c11b7c54fd8c27a8455e143c3255b2b728eea69d6ca9451efea6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ufQYCY6N/versions/McoSDHAk/questlog-neoforge-1.21.1-3.5.4.jar'
+
+[update.modrinth]
+mod-id = 'ufQYCY6N'
+version = 'McoSDHAk'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
