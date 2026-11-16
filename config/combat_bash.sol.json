@@ -1,0 +1,38 @@
+// This config file uses a custom defined parser.
+//   That's why there are comments here and stray values below, they wouldn't be valid in any other .json file
+//   To add a comment yourself, just start a line with // like here
+
+version: 2.0
+reset: false
+
+// COMBAT BASH
+"combat_bash": {
+  // If true, bashing will not be available unless you have a piece of armor with a combat_bash:roll_damage enchantment on it
+  "needs_enchantment": false,
+  // Base damage dealt by a bash (in half hearts)
+  "damage": 4,
+  // How strongly will the rolling player be knocked backwards after a bash
+  "player_knockback": 1,
+  // How strongly will the hit entity be knocked backwards after a bash
+  "target_knockback": 1,
+  // Base food points to be deducted from the rolling player after a bash
+  "extra_exhaustion": 0.03,
+  // Should players be immune to damage during rolls
+  "roll_immunity": true,
+  // If false, rolling into other players will hit them with a bash
+  "ignore_players": true
+},
+
+// Set these to false to disable the corresponding enchantment from appearing in game (disables at registry level)
+//   Only applies to Combat Bash enchantments
+
+// ENABLED ENCHANTS
+"enabled_enchants": {
+  "inertia": true,
+  "swiftfooted": true
+},
+
+// If true, hit mobs will track their immunity frames to be per player and not global.
+//   Useful if you want to tackle bosses with friends
+//   Disable if you encounter issues with very fast hitting weapons not registering hits properly
+"enable_multiplayer_immunity_frames": true

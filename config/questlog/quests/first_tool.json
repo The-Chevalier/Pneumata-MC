@@ -5,8 +5,7 @@
     "item": "minecraft:stone_pickaxe"
   },
   "chapter": "general_beginnings",
-  "sort_order": 0,
-  "include_in_main": true,
+  "sort_order": 1,
   "objectives": [
     {
       "type": "questlog:item_craft",

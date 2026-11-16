@@ -31,4 +31,10 @@ ServerEvents.generateData('after_mods', event => {
     event.json('kubejsstudio:recipe/cinder_flour_from_mill', {"type":"create:milling","ingredients":[{"item":"minecraft:netherrack"}],"results":[{"id":"create:cinder_flour"}],"processing_time":250})
     event.json('embers:recipe/fluid_pipe', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#"],"key":{"#":{"tag":"c:ingots/steel"},"A":{"tag":"c:plates/steel"}},"result":{"id":"embers:fluid_pipe","count":16}})
     event.json('embers:recipe/item_pipe', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#"],"key":{"#":{"tag":"c:ingots/lead"},"A":{"tag":"c:plates/steel"}},"result":{"id":"embers:item_pipe","count":16}})
+    event.json('railways:recipe/stonecutting/riveted_locometal', {"type":"minecraft:stonecutting","ingredient":{"item":"minecraft:iron_block"},"result":{"id":"railways:riveted_locometal","count":32}})
+    event.json('tfmg:recipe/compacting/cast_iron', {"type":"create:compacting","ingredients":[{"item":"pneumaticcraft:ingot_iron_compressed"},{"item":"minecraft:coal"}],"results":[{"id":"tfmg:cast_iron_ingot"}],"heat_requirement":"heated"})
+    event.json('scguns:recipe/basic_poultice', {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"tag":"minecraft:flowers"},{"tag":"minecraft:flowers"},{"item":"minecraft:paper"}],"result":{"id":"scguns:basic_poultice","count":2}})
+})
+ServerEvents.recipes(event => {
+    event.shaped(Item.of('pneumaticcraft:advanced_pressure_tube', 4), ['#A#', 'ABA', '#A#'], { '#': '#c:rods/steel', 'A': 'create:industrial_iron_block', 'B': 'pneumaticcraft:reinforced_pressure_tube' }).id('kubejsstudio:advanced_pressure_tube')
 })

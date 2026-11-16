@@ -7,7 +7,9 @@
             "color": 7591004,
             "width": 1,
             "height": 1,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "flat",
@@ -16,7 +18,9 @@
             "color": 7321584,
             "width": 1,
             "height": 1,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "tunnel_1x1",
@@ -25,7 +29,9 @@
             "color": 15779182,
             "width": 1,
             "height": 1,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "tunnel_2x2",
@@ -34,7 +40,9 @@
             "color": 15769162,
             "width": 2,
             "height": 2,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "tunnel_3x3",
@@ -43,7 +51,9 @@
             "color": 15234100,
             "width": 3,
             "height": 3,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "stairs_up_1x3",
@@ -52,7 +62,9 @@
             "color": 11832560,
             "width": 1,
             "height": 3,
-            "stairsUp": true
+            "stairsUp": true,
+            "whitelist": [],
+            "combine": false
         },
         {
             "id": "stairs_down_1x3",
@@ -61,8 +73,16 @@
             "color": 7360926,
             "width": 1,
             "height": 3,
-            "stairsUp": false
+            "stairsUp": false,
+            "whitelist": [],
+            "combine": false
         }
     ],
-    "invertedScroll": false
+    "invertedScroll": false,
+    "lockPatternScroll": false,
+    "showShortcutHint": true,
+    "selectedPatternId": "normal",
+    "selectedDepth": 2147483647,
+    "names": {},
+    "icons": {}
 }

@@ -277,6 +277,13 @@ ServerEvents.recipes((event) => {
 		temperature: { min: 0 }
 	}).id('kubejs:thermo/netherwater')
 
+	event.recipes.pneumaticcraft.thermo_plant({
+		inputs: { fluid: { amount: 500, tag: 'minecraft:water' } },
+		outputs: { fluid_output: { amount: 500, id: 'embers:steam' } },
+		pressure: 0.0,
+		temperature: { min: 373 }
+	}).id('kubejs:thermo/steamwater')
+
 	//Nether Dough
 	event.shapeless('mynethersdelight:ghast_dough', ['mynethersdelight:strider_egg', 'minecraft:nether_wart'])
 
@@ -346,16 +353,6 @@ ServerEvents.recipes((event) => {
 		S: '#c:strings'
 	})
 
-	//Fix canteen recipe to use tags
-	event.remove({ output: 'watercanteens:empty-leather-canteen' })
-	event.shaped('watercanteens:empty-leather-canteen', [
-		'SLS',
-		'L L',
-		'LLL'
-	], {
-		S: '#c:strings',
-		L: 'minecraft:leather'
-	})
 	event.recipes.create.mixing([Fluid.of('minecraft:water', 1000), 'minecraft:soul_sand'], [Fluid.of('netherexp:ectoplasm', 1000), 'minecraft:soul_soil']).heated()
 	//Wool from flax string
 	event.shaped('minecraft:white_wool', [

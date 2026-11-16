@@ -1,0 +1,29 @@
+[
+    {
+        "action": "remove",
+        "items": [
+"copycats:copycat_slope", "copycats:copycat_vertical_slope", "copycats:copycat_slope_layer",
+    "scguns:exo_suit_helmet", "scguns:exo_suit_chestplate", 
+    "scguns:exo_suit_leggings", "scguns:exo_suit_boots", "scguns:exo_suit_core", "scguns:advanced_exo_suit_core",
+    "scguns:night_vision_module", "scguns:target_tracker_module", "scguns:gas_mask_module", "scguns:rebreather_module",
+    "scguns:jetpack_module", "scguns:rabbit_module", "scguns:suit_grease", "scguns:tension_spring", "scguns:shock_absorber",
+    "scguns:armor_plate", "scguns:pauldron", "scguns:heavy_armor_plate", "scguns:heavy_pauldron", 
+    "scguns:armor_pouches", "scguns:heavy_armor_pouches", "scguns:exo_suit_blueprint", "relics:elytra_booster",
+    "tfmg:circuit_board", "chemica:advanced_circuit_board", "dndesires:bore_block", "dndesires:white_bore_block",
+    "dndesires:orange_bore_block", "dndesires:magenta_bore_block", "dndesires:light_blue_bore_block", "dndesires:yellow_bore_block",
+    "dndesires:lime_bore_block", "dndesires:pink_bore_block", "dndesires:gray_bore_block", "dndesires:light_gray_bore_block",
+    "dndesires:cyan_bore_block", "dndesires:purple_bore_block", "dndesires:blue_bore_block", "dndesires:brown_bore_block",
+    "dndesires:green_bore_block", "dndesires:red_bore_block", "dndesires:black_bore_block", "dndesires:asphalt", "dndesires:white_asphalt",
+    "dndesires:orange_asphalt", "dndesires:magenta_asphalt", "dndesires:light_blue_asphalt", "dndesires:yellow_asphalt",
+    "dndesires:lime_asphalt", "dndesires:pink_asphalt", "dndesires:gray_asphalt", "dndesires:light_gray_asphalt",
+    "dndesires:cyan_asphalt", "dndesires:purple_asphalt", "dndesires:blue_asphalt", "dndesires:brown_asphalt",
+    "dndesires:green_asphalt", "dndesires:red_asphalt", "dndesires:black_asphalt",
+    "dndesires:handheld_saw", "dndesires:handheld_drill", "dndesires:burner", "dndesires:gatling_breaker", "dndesires:gold_whisk", "dndesires:lapis_lazuli_shard",
+    "dndesires:diamond_shard", "dndesires:coal_piece", "dndesires:overburden_casing", "dndesires:industrial_casing", "dndesires:industrial_fan", "dndesires:cog_crank",
+    "dndesires:large_cog_crank", "dndesires:multimeter", "dndesires:smart_hopper", "dndesires:omni_gearbox", "dndesires:omni_speed_controller", "dndesires:roll_table",
+    "dndesires:hydraulic_press", "dndesires:gold_mixer", "dndesires:stirling_engine", "dndesires:seething_catalyst",
+    "silentgear:elytra_blueprint", "silentgear:elytra_template", "silentgear:elytra_wings", "silentgear:elytra", "minecraft:elytra",
+    "pneumaticcraft:elytra_upgrade", "createaddition:electric_motor", "create:windmill_bearing", "create:water_wheel", "create:steam_engine", "simulated:red_portable_engine"
+        ]
+    }
+]

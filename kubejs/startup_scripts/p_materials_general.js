@@ -14,7 +14,6 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 	event.create('unpowered_hellion_core')
 		.displayName('Unpowered Hellion Core')
-		.fireResistant(true)
 
 	event.create('speciality_gullhorn_cut')
 		.displayName('Speciality Gullhorn Cut')
@@ -53,8 +52,8 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 //Items for Ponder
 
-	event.create('dummy_tetra_hammer')
-		.displayName('§eWooden Hammer Prop')
+	event.create('robotic_ichor_cell')
+		.displayName('§eRobotic Ichor Cell')
 
 		event.create('dummy_tetra_holo')
 		.displayName('§eHolosphere Prop')

@@ -1,0 +1,9 @@
+{
+  "name": "Assembling the Foundry",
+  "icon": {
+    "item": "productivemetalworks:black_foundry_controller"
+  },
+  "order": 3,
+  "default_chapter": false,
+  "hidden": false
+}

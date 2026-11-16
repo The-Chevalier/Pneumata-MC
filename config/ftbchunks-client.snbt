@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"scguns:redcoat": true
-			"minecraft:witch": true
+			"minecraft:skeleton_horse": true
+			"minecraft:spider": true
 			"minecraft:blaze": true
-			"netherexp:ecto_slab": true
-			"embers:ancient_golem": true
 			"netherexp:vessel": true
-			"scguns:hornlin": true
+			"minecraft:mule": true
+			"luminous_nether:soul_furnace": true
+			"netherexp:apparition": true
+			"minecraft:axolotl": true
 			"minecraft:wither_skeleton": true
-			"minecraft:hoglin": true
+			"minecraft:skeleton": true
 			"minecraft:strider": true
 			"minecraft:horse": true
-			"minecraft:skeleton": true
-			"minecraft:mule": true
-			"minecraft:piglin": true
-			"luminous_nether:soul_furnace": true
-			"minecraft:axolotl": true
-			"minecraft:tropical_fish": false
-			"minecraft:pig": true
-			"minecraft:parrot": true
-			"minecraft:zombie_horse": true
-			"minecraft:zombie": true
-			"artifacts:mimic": true
-			"minecraft:villager": true
-			"minecraft:skeleton_horse": true
-			"minecraft:zombified_piglin": true
 			"luminous_nether:crimson_walker": true
-			"minecraft:magma_cube": true
+			"scguns:hornlin": true
+			"minecraft:zombie": true
+			"minecraft:zombie_horse": true
+			"minecraft:witch": true
 			"luminous_nether:revenant_skeleton": true
-			"netherexp:apparition": true
-			"minecraft:enderman": true
-			"minecraft:bat": true
-			"minecraft:spider": true
 			"luminous_nether:warped_mushlin_king": true
+			"minecraft:enderman": true
+			"minecraft:villager": true
+			"minecraft:tropical_fish": false
+			"minecraft:magma_cube": true
+			"embers:ancient_golem": true
+			"minecraft:hoglin": true
+			"artifacts:mimic": true
 			"minecraft:squid": true
+			"minecraft:zombified_piglin": true
+			"minecraft:piglin": true
+			"minecraft:pig": true
+			"scguns:redcoat": true
+			"minecraft:bat": true
+			"minecraft:parrot": true
+			"netherexp:ecto_slab": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

@@ -1,0 +1,25 @@
+filename = 'magneutica-1.1.0.jar'
+name = 'Create: Magneutica | Aeronautics Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '45e7a97ce18e57726955ea570593bca40b673319185b8053682fc8e8341237320a21bc6e336cef5717bf78342f4854f88846b6ed6b92290f77376d90b2fe91c7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xro7IeGF/versions/Q5K1ciDC/magneutica-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'xro7IeGF'
+version = 'Q5K1ciDC'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'

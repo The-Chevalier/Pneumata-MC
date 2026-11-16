@@ -1,0 +1,19 @@
+{
+  "title": "Assembling the foundry",
+  "description": "The foundry is the key to achieving strong tools and early metallurgy.",
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "chapter": "foundry_start",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Create the Foundry Controller",
+      "item": "productivemetalworks:black_foundry_controller",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

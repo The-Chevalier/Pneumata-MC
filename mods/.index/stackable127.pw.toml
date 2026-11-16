@@ -1,0 +1,18 @@
+filename = 'stackable-neoforge-1.21.1-2.1.1.jar'
+name = 'Stackable'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'f8848bf16d03ee3f5300094bb2faf4b68cdf522ae38e771b1615d79113a28bf940a2fa91007a12267a99f5a5e0cb5b4b3a78401ff822c6caf3a2bb436694c50b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Bc74RbD1/versions/TBKpK48U/stackable-neoforge-1.21.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'Bc74RbD1'
+version = 'TBKpK48U'

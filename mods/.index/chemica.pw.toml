@@ -1,27 +1,18 @@
-filename = 'chemica-1.21.1-0.7.0.jar'
+filename = 'chemica-1.21.1-0.7.1.jar'
 name = 'Chemica'
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.7.0'
+x-prismlauncher-version-number = '0.7.1'
 
 [download]
-hash = 'a95e459bbe20db9ce547b7de731fa69fcc3ec10c132ca13215cfe8949e892ae53f71a90935191e21dadc1c5a4c65df3611d3c4265eb3b005fa378fad3396ed0a'
+hash = 'ace5c2246aa1ed3650e60fc9ec6dee407eecb244c47e258d5e089c3079c241cb1f3c0fa9834f0f6a70379f700d2e8efeba044090ff1af07389acdf48e75d42c8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/E6GusVzz/versions/vVp5FCYf/chemica-1.21.1-0.7.0.jar'
+url = 'https://cdn.modrinth.com/data/E6GusVzz/versions/47KDFPTd/chemica-1.21.1-0.7.1.jar'
 
 [update.modrinth]
 mod-id = 'E6GusVzz'
-version = 'vVp5FCYf'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'hC1xYvnS'
-type = 'REQUIRED'
-version = 'Kw93Pv7B'
-
-[[x-prismlauncher-dependencies]]
-addonId = '71o627pK'
-type = 'EMBEDDED'
-version = 'jt3Hhj5K'
+version = '47KDFPTd'

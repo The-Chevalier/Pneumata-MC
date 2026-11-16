@@ -1,6 +1,8 @@
  ServerEvents.tags('item', event => {
    // Get the #forge:cobblestone tag collection and add Diamond Ore to it
    event.add('c:ingots/plastic', 'pneumaticcraft:plastic')
+   event.add('c:ingots/compressed_iron', 'tfmg:cast_iron_ingot')
+      event.add('c:storage_blocks/compressed_iron', 'tfmg:cast_iron_block')
 //   // Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 //  event.remove('forge:cobblestone', 'minecraft:mossy_cobblestone')
 

@@ -1,0 +1,38 @@
+{
+  "title": "Enhanced Traversal",
+  "description": "The terrain often presents an insurmountable challenge. It is possible to fashion a grappling hook using the pickaxe blueprints...",
+  "icon": {
+    "item": "grapplemod:grapplinghook"
+  },
+  "chapter": "general_beginnings",
+  "sort_order": 2,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Acquire or craft a lead",
+      "item": "minecraft:lead",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Combine the lead with any pickaxe head to make a grappling hook",
+      "item": "grapplemod:grapplinghook",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "These pickaxe heads would be better made out of metal...",
+      "item": "productivemetalworks:liquid_heating_coil",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "name": "Your eye could benefit from a spyglass...",
+      "item": "minecraft:spyglass",
+      "count": 1
+    }
+  ]
+}

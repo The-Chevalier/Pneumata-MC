@@ -1,0 +1,26 @@
+{
+  "title": "Movement and Stats",
+  "description": "You are more nimble than you may think! You can crawl (default key C) whenever you wish! Using your hardened body, you can combat roll (default key R) and even bash enemies by rolling into them!\n\nFood is not as nourishing for wounds as one might think. In combat, healing will be slower unless you use poultices, bandages or potions. Food can be used to passively heal while in the safety of home.",
+  "icon": {
+    "item": "minecraft:arrow"
+  },
+  "chapter": "general_beginnings",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:zombie",
+      "required_amount": 5,
+      "name": "Kill 5 Zombies"
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Choose your battles wisely, Vessel. You are not truly immortal..",
+      "item": "scguns:basic_poultice",
+      "count": 16
+    }
+  ]
+}

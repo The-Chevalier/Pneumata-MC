@@ -1,0 +1,19 @@
+{
+  "title": "Cast Iron",
+  "description": "Utilizing your foundry, you can create heavy and durable cast iron to design simple pneumatic machinery.\n\nPressure is an incredibly versatile mechanical power source. It is able to create ample rotational force, craft components for other advanced equipment, and so much more. Some of the options will be presented to you in this chapter.",
+  "icon": {
+    "item": "tfmg:cast_iron_ingot"
+  },
+  "chapter": "pnc_start",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Alloy Molten Carbon and Iron in the Foundry",
+      "item": "tfmg:cast_iron_ingot",
+      "required_amount": 16
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

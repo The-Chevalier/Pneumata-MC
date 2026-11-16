@@ -1,7 +1,7 @@
 {
   "name": "Vessel's Beginnings",
   "icon": {
-    "item": "minecraft:knowledge_book"
+    "item": "minecraft:iron_pickaxe"
   },
   "order": 0,
   "default_chapter": false,
