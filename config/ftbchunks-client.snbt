@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"luminous_nether:warped_mushlin_king": true
-			"minecraft:parrot": true
-			"minecraft:bat": true
-			"netherexp:vessel": true
 			"minecraft:squid": true
-			"minecraft:zombified_piglin": true
-			"minecraft:horse": true
-			"minecraft:enderman": true
-			"minecraft:wither_skeleton": true
-			"minecraft:blaze": true
-			"minecraft:axolotl": true
-			"minecraft:pig": true
-			"luminous_nether:soul_furnace": true
-			"minecraft:strider": true
-			"minecraft:tropical_fish": false
-			"minecraft:zombie_horse": true
-			"minecraft:skeleton_horse": true
-			"scguns:redcoat": true
-			"luminous_nether:crimson_walker": true
-			"minecraft:zombie": true
-			"embers:ancient_golem": true
-			"minecraft:hoglin": true
-			"artifacts:mimic": true
-			"minecraft:villager": true
-			"netherexp:apparition": true
-			"netherexp:ecto_slab": true
-			"luminous_nether:revenant_skeleton": true
-			"minecraft:skeleton": true
-			"minecraft:magma_cube": true
-			"minecraft:witch": true
 			"minecraft:piglin": true
-			"minecraft:spider": true
-			"minecraft:mule": true
+			"minecraft:blaze": true
+			"minecraft:strider": true
+			"minecraft:hoglin": true
 			"scguns:hornlin": true
+			"minecraft:pig": true
+			"minecraft:axolotl": true
+			"minecraft:zombie": true
+			"netherexp:vessel": true
+			"minecraft:mule": true
+			"netherexp:apparition": true
+			"minecraft:villager": true
+			"scguns:redcoat": true
+			"minecraft:magma_cube": true
+			"minecraft:wither_skeleton": true
+			"minecraft:bat": true
+			"minecraft:skeleton": true
+			"minecraft:skeleton_horse": true
+			"artifacts:mimic": true
+			"luminous_nether:warped_mushlin_king": true
+			"minecraft:witch": true
+			"minecraft:enderman": true
+			"luminous_nether:soul_furnace": true
+			"minecraft:parrot": true
+			"luminous_nether:revenant_skeleton": true
+			"minecraft:spider": true
+			"minecraft:tropical_fish": false
+			"embers:ancient_golem": true
+			"minecraft:zombified_piglin": true
+			"minecraft:zombie_horse": true
+			"luminous_nether:crimson_walker": true
+			"netherexp:ecto_slab": true
+			"minecraft:horse": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
