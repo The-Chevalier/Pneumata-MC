@@ -37,4 +37,5 @@ ServerEvents.generateData('after_mods', event => {
 })
 ServerEvents.recipes(event => {
     event.shaped(Item.of('pneumaticcraft:advanced_pressure_tube', 4), ['#A#', 'ABA', '#A#'], { '#': '#c:rods/steel', 'A': 'create:industrial_iron_block', 'B': 'pneumaticcraft:reinforced_pressure_tube' }).id('kubejsstudio:advanced_pressure_tube')
+    event.shapeless(Item.of('pneumaticcraft:bandage', 4), ['kubejs:robotic_ichor_cell', 'minecraft:paper']).id('kubejsstudio:paper')
 })

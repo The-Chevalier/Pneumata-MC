@@ -421,7 +421,7 @@ PMW.alloy(event, 'kubejs:molten_cast_iron', 360, [
 //Casting the Cast Iron
 //Nugget
 PMW.itemCast(event, 'tfmg:cast_iron_nugget', 
-	'productivemetalworks:ingot_cast', 
+	'productivemetalworks:nugget_cast', 
 	'kubejs:molten_cast_iron', 9)
 //Ingot
 PMW.itemCast(event, 'tfmg:cast_iron_ingot', 
@@ -431,4 +431,8 @@ PMW.itemCast(event, 'tfmg:cast_iron_ingot',
 PMW.blockCast(event, 'tfmg:cast_iron_block',
 	'minecraft:air', 
 	'kubejs:molten_cast_iron', 900)
+//Melt Back
+PMW.melt(event, 'tfmg:cast_iron_nugget', 'kubejs:molten_cast_iron', 9)
+PMW.melt(event, 'tfmg:cast_iron_ingot', 'kubejs:molten_cast_iron', 90)
+PMW.melt(event, 'tfmg:cast_iron_block', 'kubejs:molten_cast_iron', 900)
 })

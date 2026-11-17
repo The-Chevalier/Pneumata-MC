@@ -1,0 +1,21 @@
+filename = 'overpressure-0.1.7.4.jar'
+name = 'Create:OverPressure'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'overpressure-0.1.7.4.jar'
+
+[download]
+hash = 'ceeceff3a93de84b25b0729fd5ab802fd3434d51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9196247
+project-id = 1630290
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

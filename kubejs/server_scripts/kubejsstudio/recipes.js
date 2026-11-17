@@ -34,6 +34,7 @@ ServerEvents.generateData('after_mods', event => {
     event.json('railways:recipe/stonecutting/riveted_locometal', {"type":"minecraft:stonecutting","ingredient":{"item":"minecraft:iron_block"},"result":{"id":"railways:riveted_locometal","count":32}})
     event.json('tfmg:recipe/compacting/cast_iron', {"type":"create:compacting","ingredients":[{"item":"pneumaticcraft:ingot_iron_compressed"},{"item":"minecraft:coal"}],"results":[{"id":"tfmg:cast_iron_ingot"}],"heat_requirement":"heated"})
     event.json('scguns:recipe/basic_poultice', {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"tag":"minecraft:flowers"},{"tag":"minecraft:flowers"},{"item":"minecraft:paper"}],"result":{"id":"scguns:basic_poultice","count":2}})
+    event.json('kubejsstudio:recipe/industrial_iron_block_from_ingots_iron_stonecutting', {"type":"minecraft:stonecutting","ingredient":{"tag":"c:ingots/compressed_iron"},"result":{"id":"create:industrial_iron_block","count":4}})
 })
 ServerEvents.recipes(event => {
     event.shaped(Item.of('pneumaticcraft:advanced_pressure_tube', 4), ['#A#', 'ABA', '#A#'], { '#': '#c:rods/steel', 'A': 'create:industrial_iron_block', 'B': 'pneumaticcraft:reinforced_pressure_tube' }).id('kubejsstudio:advanced_pressure_tube')

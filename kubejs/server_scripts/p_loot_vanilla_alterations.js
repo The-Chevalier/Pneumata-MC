@@ -15,20 +15,21 @@ console.info('Regalian Survival Loot Tables VA Added')
 
 //Create Loot Tables here and append them to entities as needed. It's more efficient.
 
+//This got modified by KubeJS Studio
 LootJS.lootTables(event => {
-    event.create("lootjs:robotic_drops").createPool(pool => {
-
-        pool.addEntry(LootEntry.of("minecraft:iron_nugget")
-        .withWeight(10)
-        .setCount([2, 5])
-        )
-
-        pool.addEntry(LootEntry.of("scguns:depleted_energy_core").withWeight(5))
-
-        pool.addEntry(LootEntry.of("minecraft:iron_ingot").withWeight(5))
-
-        pool.addEntry(LootEntry.of("scguns:energy_core").withWeight(1))
-    })
+//    event.create("lootjs:robotic_drops").createPool(pool => {
+//
+//        pool.addEntry(LootEntry.of("minecraft:iron_nugget")
+//        .withWeight(10)
+//        .setCount([2, 5])
+//        )
+//
+//      pool.addEntry(LootEntry.of("scguns:depleted_energy_core").withWeight(5))
+//
+//        pool.addEntry(LootEntry.of("minecraft:iron_ingot").withWeight(5))
+//
+//       pool.addEntry(LootEntry.of("scguns:energy_core").withWeight(1))
+//    })
 
     event.create("lootjs:voideye_addition").createPool(pool => {
 

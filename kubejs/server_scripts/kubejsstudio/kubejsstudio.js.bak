@@ -1,0 +1,34 @@
+// kubejsstudio custom: kubejsstudio:advanced_pressure_tube
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'kubejsstudio:recipe/advanced_pressure_tube',
+      {
+        "type": "kubejs:shaped",
+        "result": {"id":"pneumaticcraft:advanced_pressure_tube","count":4},
+        "pattern": ["#A#","ABA","#A#"],
+        "key": {
+          "A": {"item":"create:industrial_iron_block"},
+          "B": {"item":"pneumaticcraft:reinforced_pressure_tube"},
+          "#": {"tag":"c:rods/steel"}
+        },
+        "_kubejs_changed_marker": {
+          "source": "server_scripts:kubejsstudio/recipes.js",
+          "line": 37
+        }
+      }
+    )
+})
+// kubejsstudio custom: kubejs:pmw/item_casting/kubejs_molten_cast_iron_to_tfmg_cast_iron_nugget
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'kubejs:recipe/pmw/item_casting/kubejs_molten_cast_iron_to_tfmg_cast_iron_nugget',
+      {
+        "type": "productivemetalworks:item_casting",
+        "cast": {"item":"productivemetalworks:nugget_cast"},
+        "consume_cast": false,
+        "fluid": {"fluid":"kubejs:molten_cast_iron","amount":9},
+        "result": {"id":"tfmg:cast_iron_nugget","count":1},
+        "_kubejs_changed_marker": {"source":"","line":0}
+      }
+    )
+})

@@ -3,7 +3,7 @@
   "browserCollapsed": false,
   "pendingCollapsed": false,
   "sideListCollapsed": false,
-  "tab": 2,
+  "tab": 0,
   "propsBlocks": false,
   "filesExplorerCollapsed": false,
   "apiBrowserCollapsed": false,
@@ -17,7 +17,7 @@
   "filesExplorerW": 220,
   "filesConsoleH": 120,
   "recipesBrowserW": 200,
-  "previewH": 205,
+  "previewH": 117,
   "sideListW": 200,
   "pendingHeight": 120,
   "pickerW": 0,
@@ -45,8 +45,8 @@
   "pinnedFiles": [],
   "pinnedFolders": [],
   "favorites": [],
-  "recipesSelected": "kubejsstudio:paper",
-  "recipesSearch": "kubejsstudio:paper",
+  "recipesSelected": "chemica:vat_machine_recipe/vat_reaction/steam",
+  "recipesSearch": "chemica:vat_machine_recipe/vat_reaction/steam",
   "tagsRegistry": "",
   "tagsSelected": "",
   "tagsSearch": "",
@@ -59,6 +59,8 @@
   "createSearch": "",
   "filesOpen": [],
   "recentPicks": [
+    "item embers:steam_bucket",
+    "item #c:ingots/compressed_iron",
     "item kubejs:robotic_ichor_cell",
     "item minecraft:paper",
     "item pneumaticcraft:bandage",
@@ -68,9 +70,7 @@
     "item tfmg:screw",
     "item tfmg:heavy_plate",
     "item tfmg:large_aluminum_cogwheel",
-    "item pneumaticcraft:advanced_pressure_tube",
-    "item #c:rods/steel",
-    "item create:industrial_iron_block"
+    "item pneumaticcraft:advanced_pressure_tube"
   ],
   "filesActive": -1
 }

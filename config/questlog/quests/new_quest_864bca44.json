@@ -1,0 +1,19 @@
+{
+  "title": "Steam Power",
+  "description": "Using the Thermopneumatic Processing Plant, Water can be boiled into Steam, which is able to be used in the Liquid Compressor as a virtually inexhaustible source of pressure.\n\nPressure can be converted into Rotational Force using the Compressed Air Engine, allowing for various mechanical devices to be used!",
+  "icon": {
+    "item": "pneumaticcraft:liquid_compressor"
+  },
+  "chapter": "pnc_start",
+  "sort_order": 5,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Get a bucket of Steam",
+      "item": "embers:steam_bucket",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

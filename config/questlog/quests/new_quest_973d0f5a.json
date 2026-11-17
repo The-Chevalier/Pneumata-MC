@@ -1,0 +1,12 @@
+{
+  "title": "Introduction",
+  "description": "Welcome to the strange, spliced world of PNEUMATA. The wild and chaotic land must be tamed with mechanical and arcane force.\n\nThe quest system is designed to focus on starting information, bringing awareness of how various progression paths may begin. Not all information across the entire modpack is present, as a large degree is left to be discovered!",
+  "icon": {
+    "item": "minecraft:wooden_pickaxe"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [],
+  "prerequisites": [],
+  "rewards": []
+}

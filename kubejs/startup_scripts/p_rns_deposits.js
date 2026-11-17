@@ -47,8 +47,6 @@ StartupEvents.rnsEnableDeposits(event => {
     .deposit('create_rns:deposit_nickel', true)
     .deposit('create_rns:deposit_silver', true)
     .deposit('create_rns:deposit_platinum', true)
-    .deposit('create_rns:deposit_uranium', false)
-    .deposit('create_rns:deposit_thorium', false)
     // Average distance between deposits in chunks
     .spacing(24)
     // Minimum distance between deposits in chunks
@@ -60,8 +58,6 @@ StartupEvents.rnsEnableDeposits(event => {
     .deposit('kubejs:black_ice_deposit', true)
     .deposit('kubejs:fossil_fuel_deposit', true)
     .deposit('create_rns:deposit_nether_quartz', true)
-    .deposit('create_rns:deposit_nether_cobalt', false)
-    .deposit('create_rns:deposit_nether_wolframite', false)
     .spacing(8)
     .separation(2)
 })
