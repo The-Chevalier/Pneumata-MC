@@ -132,12 +132,12 @@
 		#Default value: 20.0
 		# Default: 40.0
 		# Range: 0.0 ~ 999999.0
-		air_usage_work = 40.0
+		air_usage_work = 10.0
 		#Air usage when idle
 		#Default value: 40.0
 		# Default: 80.0
 		# Range: 0.0 ~ 999999.0
-		air_usage_idle = 80.0
+		air_usage_idle = 0.0
 		#Pressure required to operate
 		#Default value: 3.0
 		# Default: 3.0

@@ -1,0 +1,12 @@
+{
+  "title": "Steam Engines",
+  "description": "With Steel available, the ability to craft powerful engines is at hand! Regular and Radial Engines require some amount of assembly, and must also be vented of their exhausts, but the result is rotational energy that can be used to actuate many other devices. These engines can be designed to accept Steam as well, leading to efficient resource usage!",
+  "icon": {
+    "item": "tfmg:radial_engine"
+  },
+  "chapter": "tfmg_steel",
+  "sort_order": 2,
+  "objectives": [],
+  "prerequisites": [],
+  "rewards": []
+}

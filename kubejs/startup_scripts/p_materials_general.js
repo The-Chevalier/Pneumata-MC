@@ -92,6 +92,9 @@ event.create('lens_cast')
 event.create('steel_disc')
 		.displayName('Steel Disc')
 
+event.create('steam_engine_cylinder')
+		.displayName('Steam Engine Cylinder')
+
 event.create('basic_lens')
 		.displayName('Basic Lens')
 
@@ -113,10 +116,21 @@ event.create('basic_lens')
 	event.create('deconstructor_part')
 		.displayName('§dDeconstructor Part')
 
+    //Refined Carbon Hunk
+	event.create('refined_carbon_hunk')
+		.displayName('§dRefined Carbon Hunk')
+
 	// upgrade kit paraphernalia
 	event.create('upgrade_kit_case')
 		.displayName('Upgrade Kit Case')
 		.maxStackSize(64);
+
+	//Geodes
+	event.create('common_geode')
+		.displayName('Common Geode')
+		
+	event.create('deep_geode')
+		.displayName('§dDeep Geode')
 });
 
 

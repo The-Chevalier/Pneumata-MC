@@ -5,7 +5,7 @@
     "item": "productivemetalworks:black_foundry_controller"
   },
   "chapter": "foundry_start",
-  "sort_order": 0,
+  "sort_order": 1,
   "objectives": [
     {
       "type": "questlog:item_craft",

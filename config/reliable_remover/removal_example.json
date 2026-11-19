@@ -23,7 +23,7 @@
     "dndesires:large_cog_crank", "dndesires:multimeter", "dndesires:smart_hopper", "dndesires:omni_gearbox", "dndesires:omni_speed_controller", "dndesires:roll_table",
     "dndesires:hydraulic_press", "dndesires:gold_mixer", "dndesires:stirling_engine", "dndesires:seething_catalyst",
     "silentgear:elytra_blueprint", "silentgear:elytra_template", "silentgear:elytra_wings", "silentgear:elytra", "minecraft:elytra",
-    "pneumaticcraft:elytra_upgrade", "createaddition:electric_motor", "create:windmill_bearing", "create:water_wheel", "create:steam_engine", "simulated:red_portable_engine"
+    "pneumaticcraft:elytra_upgrade", "createaddition:electric_motor", "create:windmill_bearing", "create:steam_engine", "simulated:red_portable_engine"
         ]
     }
 ]

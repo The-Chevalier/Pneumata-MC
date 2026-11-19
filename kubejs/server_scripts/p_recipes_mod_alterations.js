@@ -91,9 +91,9 @@ ServerEvents.recipes((event) => {
 	event.recipes.create.mixing('minecraft:basalt', [Fluid.of('minecraft:lava', 500), 'chemica:quartz_dust', 'minecraft:cobbled_deepslate']).heated();
 
 	// graphene
-	event.recipes.create.compacting('chemica:electrochemically_exfoliated_graphene', '3x createaddition:diamond_grit').superheated();
+	event.recipes.create.compacting('chemica:electrochemically_exfoliated_graphene', '1x createaddition:diamond_grit').superheated();
 
-	event.recipes.create.compacting('chemica:carbon_fiber_composite_sheet', '5x chemica:electrochemically_exfoliated_graphene').superheated();
+	event.recipes.create.compacting('chemica:carbon_fiber_composite_sheet', '1x chemica:electrochemically_exfoliated_graphene').superheated();
 
 	event.shaped('scguns:diamond_bayonet', [
 		' I',
@@ -435,4 +435,18 @@ PMW.blockCast(event, 'tfmg:cast_iron_block',
 PMW.melt(event, 'tfmg:cast_iron_nugget', 'kubejs:molten_cast_iron', 9)
 PMW.melt(event, 'tfmg:cast_iron_ingot', 'kubejs:molten_cast_iron', 90)
 PMW.melt(event, 'tfmg:cast_iron_block', 'kubejs:molten_cast_iron', 900)
+
+//Refined Carbon Hunk
+PMW.itemCast(event, 'kubejs:refined_carbon_hunk', 
+	'productivemetalworks:ingot_cast', 
+	'productivemetalworks:molten_carbon', 1000)
+//Remelt RCH
+PMW.melt(event, 'kubejs:refined_carbon_hunk', 'productivemetalworks:molten_carbon', 1000)
+
+//Carbon Hunk to Plate
+event.recipes.pneumaticcraft.pressure_chamber(
+    [{ count: 1, id: 'chemica:carbon_fiber_composite_sheet' }],
+    [{ count: 4, item: 'kubejs:refined_carbon_hunk' }],
+    4.9
+).id('mypack:pressure/carbon_sheet')
 })

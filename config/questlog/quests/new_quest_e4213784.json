@@ -5,7 +5,7 @@
     "item": "pneumaticcraft:thermopneumatic_processing_plant"
   },
   "chapter": "pnc_start",
-  "sort_order": 3,
+  "sort_order": 4,
   "objectives": [
     {
       "type": "questlog:item_craft",
