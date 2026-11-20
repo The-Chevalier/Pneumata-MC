@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "star1954",
+      "uniqueId": "b2e8d652-33ff-48e2-bc35-7e34a4c2bebf"
+    },
+    "time": 1792191458155,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6FBMb1hYhu"
+    }
+  }
+]

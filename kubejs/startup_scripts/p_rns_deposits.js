@@ -13,6 +13,22 @@ StartupEvents.rnsDepositStructures(event => {
 //    .preset('overworld_common')
     .scannerIcon('minecraft:raw_iron')
     .mapIcon('minecraft:raw_iron')
+
+
+  event.create('kubejs:black_ice_deposit')
+    .block('kubejs:black_ice_deposit_block')
+    .displayName('Black Ice Deposit')
+    .preset('nether_common')
+    .scannerIcon('netherexp:black_icicle')
+    .mapIcon('kubejs:black_ice_deposit_block')
+    .biome('netherexp:black_ice_glaciers')
+
+  event.create('kubejs:fossil_fuel_deposit')
+    .block('kubejs:fossil_fuel_deposit_block')
+    .displayName('Fossil Fuel Deposit')
+    .preset('nether_common')
+    .scannerIcon('netherexp:fossil_fuel')
+    .mapIcon('kubejs:fossil_fuel_deposit_block')
 })
 
 StartupEvents.rnsEnableDeposits(event => {
@@ -31,8 +47,6 @@ StartupEvents.rnsEnableDeposits(event => {
     .deposit('create_rns:deposit_nickel', true)
     .deposit('create_rns:deposit_silver', true)
     .deposit('create_rns:deposit_platinum', true)
-    .deposit('create_rns:deposit_uranium', false)
-    .deposit('create_rns:deposit_thorium', false)
     // Average distance between deposits in chunks
     .spacing(24)
     // Minimum distance between deposits in chunks
@@ -41,9 +55,9 @@ StartupEvents.rnsEnableDeposits(event => {
   event.nether()
     .deposit('create_rns:deposit_nether_gold', true)
     .deposit('kubejs:nether_iron_deposit', true)
+    .deposit('kubejs:black_ice_deposit', true)
+    .deposit('kubejs:fossil_fuel_deposit', true)
     .deposit('create_rns:deposit_nether_quartz', true)
-    .deposit('create_rns:deposit_nether_cobalt', false)
-    .deposit('create_rns:deposit_nether_wolframite', false)
     .spacing(8)
     .separation(2)
 })

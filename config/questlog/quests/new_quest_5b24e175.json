@@ -1,0 +1,68 @@
+{
+  "title": "Assembling the foundry",
+  "description": "The foundry is the gateway to achieving strong tools and early metallurgy. This quest will help you build the smallest possible foundry, though a larger one will make things much easier!\n\nOnce you have all of the parts, assemble a bowl-shaped 4x4x2 structure. 4 heating coils will make up the 'floor' of the bowl, and the top blocks will be a mixture of the controller, drain, tank, and bricks. No corners here!\n\nTo utilize the foundry, right click the foundry controller to place items inside. Make sure to place lava inside the tank to allow the foundry to work. To use the drain, place a Casting Table or Casting Basin underneath. It will drain the lowest layer of fluid inside the foundry first.\n\nThe most prized creation of the Foundry at this level is Cast Iron, which opens access to two paths: Steel, and Pneumatics.",
+  "icon": {
+    "item": "productivemetalworks:black_foundry_controller"
+  },
+  "chapter": "foundry_start",
+  "sort_order": 1,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Create the Foundry Controller",
+      "item": "productivemetalworks:black_foundry_controller",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft Fire Bricks",
+      "item": "productivemetalworks:black_fire_bricks",
+      "required_amount": 5
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Foundry Drain",
+      "item": "productivemetalworks:black_foundry_drain",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Foundry Tap",
+      "item": "productivemetalworks:foundry_tap",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Foundry Tank",
+      "item": "productivemetalworks:black_foundry_tank",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Use with a casting table to cast ingots!",
+      "item": "productivemetalworks:ingot_cast",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "name": "Cast items such as ingots or tool heads!",
+      "item": "productivemetalworks:casting_table",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "name": "Cast blocks of material!",
+      "item": "productivemetalworks:casting_basin",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "name": "Make better tools!",
+      "item": "sgearmetalworks:pickaxe_cast",
+      "count": 1
+    }
+  ]
+}

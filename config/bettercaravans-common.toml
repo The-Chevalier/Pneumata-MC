@@ -4,9 +4,9 @@
 	enable_chested_animals = true
 	golem_spawn_chance = 0.35
 	enable_golem_guard = true
+	enable_biome_specific_animals = true
 	chested_loot_hay_min = 1
 	cold_chest_loot = ["minecraft:sweet_berries,4,12", "minecraft:coal,2,10", "minecraft:leather,1,6"]
-	enable_biome_specific_animals = true
 	max_chested_animals = 2
 	enable_biome_chested_animal_loot = true
 	temperate_chest_loot = ["minecraft:wheat,6,16", "minecraft:hay_block,1,4", "minecraft:emerald,1,4"]
@@ -92,8 +92,8 @@
 	enable_mini_raids = true
 	min_raiders = 2
 	raid_start_sound_volume = 1.0
-	xp_reward_for_raid = 8
 	enable_raid_start_sound = true
+	xp_reward_for_raid = 8
 	max_raiders = 5
-	max_discount_percent = 60
 	enable_raiders_glow = true
+	max_discount_percent = 60

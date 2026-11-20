@@ -1,18 +1,18 @@
-filename = 'collective-1.21.1-8.42.jar'
+filename = 'collective-1.21.1-8.86.jar'
 name = 'Collective'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-8.42-fabric+forge+neo'
+x-prismlauncher-version-number = '1.21.1-8.86-fabric+forge+neo'
 
 [download]
-hash = '629d6301558ec8dfaddfe42640d37317ae4e83f515b6d6179cc3e164286284948110b2ff15735d919ceaf33d467e7b2dd7d52b6b7297e8a1eddb611a7c844ecd'
+hash = 'b741915a3952bfb1f83ff74a3aee84128fb0d09b8e75ff836b1820c1b2d221fd5cf4bfa91146afee02468f6a7010cf5ae2b8f64746a6fc7bfa1e27b0abc4f99a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/e0M1UDsY/versions/ZHBXubZ4/collective-1.21.1-8.42.jar'
+url = 'https://cdn.modrinth.com/data/e0M1UDsY/versions/ry7LvdEb/collective-1.21.1-8.86.jar'
 
 [update.modrinth]
 mod-id = 'e0M1UDsY'
-version = 'ZHBXubZ4'
+version = 'ry7LvdEb'

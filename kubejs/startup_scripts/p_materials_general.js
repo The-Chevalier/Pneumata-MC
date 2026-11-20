@@ -14,7 +14,6 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 	event.create('unpowered_hellion_core')
 		.displayName('Unpowered Hellion Core')
-		.fireResistant(true)
 
 	event.create('speciality_gullhorn_cut')
 		.displayName('Speciality Gullhorn Cut')
@@ -53,8 +52,8 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 //Items for Ponder
 
-	event.create('dummy_tetra_hammer')
-		.displayName('§eWooden Hammer Prop')
+	event.create('robotic_ichor_cell')
+		.displayName('§eRobotic Ichor Cell')
 
 		event.create('dummy_tetra_holo')
 		.displayName('§eHolosphere Prop')
@@ -93,6 +92,9 @@ event.create('lens_cast')
 event.create('steel_disc')
 		.displayName('Steel Disc')
 
+event.create('steam_engine_cylinder')
+		.displayName('Steam Engine Cylinder')
+
 event.create('basic_lens')
 		.displayName('Basic Lens')
 
@@ -114,27 +116,45 @@ event.create('basic_lens')
 	event.create('deconstructor_part')
 		.displayName('§dDeconstructor Part')
 
+    //Refined Carbon Hunk
+	event.create('refined_carbon_hunk')
+		.displayName('§dRefined Carbon Hunk')
+
 	// upgrade kit paraphernalia
 	event.create('upgrade_kit_case')
 		.displayName('Upgrade Kit Case')
-		.maxStackSize(1);
+		.maxStackSize(64);
+
+	//Geodes
+	event.create('common_geode')
+		.displayName('Common Geode')
+		
+	event.create('deep_geode')
+		.displayName('§dDeep Geode')
 });
 
 
 
-//StartupEvents.registry('block', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
-// Dont really need these anymore
-	//General Blocks
-//	event.create('fabricator_casing')
-//		.material('metal')
-//		.textureSide(Direction.UP, 'kubejs:block/fabricator_casing_top')
-//		.textureSide(Direction.DOWN, 'kubejs:block/fabricator_casing_bottom')
+StartupEvents.registry('block', event => {
+  event.create('black_ice_deposit_block') // Create a new block
+    .displayName('Black Ice Deposit') // Set a custom name
+    .soundType('stone') // Set a material (affects the sounds and some properties)
+    .hardness(10) // Set hardness (affects mining time)
+    .resistance(10) // Set resistance (to explosions, etc)
+    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+    .tagBlock('create_rns:deposit_blocks')
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_diamond_tool')
 
-//	event.create('broken_fabricator')
-//		.material('metal')
-//		.textureSide(Direction.UP, 'kubejs:block/broken_fabricator_top')
-//		.textureSide(Direction.DOWN, 'kubejs:block/broken_fabricator_bottom')
+  event.create('fossil_fuel_deposit_block') // Create a new block
+    .displayName('Fossil Fuel Deposit') // Set a custom name
+    .soundType('stone') // Set a material (affects the sounds and some properties)
+    .hardness(10) // Set hardness (affects mining time)
+    .resistance(10) // Set resistance (to explosions, etc)
+    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+    .tagBlock('create_rns:deposit_blocks')
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_diamond_tool')
+})
 
-//})
+

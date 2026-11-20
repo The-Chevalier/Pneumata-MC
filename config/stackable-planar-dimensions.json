@@ -1,7 +1,7 @@
 {
   "enableMod": true,
   "HELPenableMod": "Enables the mod, /spd.enable also does the trick",
-  "entitiesTraveling": true,
+  "entitiesTraveling": false,
   "HELPentitiesTraveling": "Allows nonplayer entities to use the mod to travel",
   "enablePlatform": true,
   "HELPenablePlatform": "Creates a platform to break your fall if air is under you when traveling between dimensions",

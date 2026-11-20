@@ -1,8 +1,177 @@
 {
-  "configVersion": 1,
+  "configVersion": 2,
   "enforceFairPlay": true,
   "disableMinimap": false,
-  "allowMinimapCaveModeInNether": false,
-  "allowWorldMapCaveModeInNether": false,
+  "allowMinimapCaveModeInNether": true,
+  "allowWorldMapCaveModeInNether": true,
   "servers": {}
+,
+  "minimap": {
+    // "display_minimap": true, // Show the minimap. false hides it, like disableMinimap.
+    // "minimap_item": "-", // Item ID required in the hotbar for the minimap. "-" for none.
+    // "minimap_safe_mode": false, // Safe Mode.
+    // "minimap_ui_scale": 1, // UI Scale. 1 to 11.
+    // "display_radar": true, // Entity radar. Overrides enforceFairPlay for the radar.
+    // "radar_dots_style": 0, // Entity Dots Style. 0 = Default, 1 = Legacy.
+    // "radar_smooth_dots": true, // Smooth Dots.
+    // "radar_name_scale": 1.0, // Dot Name Scale. 1.0 to 3.0 in steps of 0.5.
+    // "radar_main_entity": 0, // Main Entity As. 0 = Crosshair, 1 = Dot, 2 = Arrow.
+    // "radar_main_dot_size": 2, // Main Entity Dot Size. 1 to 4.
+    // "radar_hide_invisible_entities": true, // Hide Invisible Entities.
+    // "minimap_arrow_scale": 1.5, // Arrow Scale. 1.0 to 2.0 in steps of 0.1.
+    // "minimap_arrow_color": 0, // Arrow Color. -1 = Team, 0 = Red, 1 = Green, 2 = Blue, 3 = Yellow, 4 = Light Purple, 5 = White, 6 = Black, 7 = Legacy.
+    // "minimap_arrow_opacity": 100, // Arrow Opacity. 1 to 100.
+    // "tracked_players_on_minimap": true, // On-Map Tracked Players.
+    // "tracked_players_in_world": true, // In-World Tracked Players.
+    // "tracked_player_minimap_icon_scale": 0, // Tracked Player On-Map Scale. 0 to 17.
+    // "tracked_player_world_icon_scale": 0, // Tracked Player In-World Scale. 0 to 17.
+    // "tracked_player_world_name_scale": 0, // Tracked Player Name Scale. 0 to 17.
+    // "waypoints_in_world": true, // In-World Waypoints.
+    // "waypoints_on_minimap": true, // On-Map Waypoints.
+    // "waypoints_all_sets": false, // Render All Waypoint Sets.
+    // "deathpoints": true, // Deathpoints.
+    // "old_deathpoints": true, // Keep Old Deathpoints.
+    // "delete_reached_deathpoints": true, // Delete Reached Deathpoints.
+    // "switch_auto_waypoints_on_death": true, // Auto Sub-World On Death.
+    // "waypoint_icon_scale_in_world": 0, // In-World Waypoint Icon Scale. 0 to 17.
+    // "waypoint_name_scale_in_world": 0, // Waypoint Name Text Scale. 0 to 17.
+    // "waypoint_close_scale_in_world": 1.0, // In-World Waypoint Up-Close Scale. 0.125 to 8.0 in steps of 0.025.
+    // "waypoint_distance_scale_in_world": 0, // Waypoint Distance Text Scale. 0 to 17.
+    // "multiple_waypoints_info": 1, // Multiple Waypoint Distances. 0 = OFF, 1 = Sneaking, 2 = Always.
+    // "waypoint_distance_in_world": 1, // Distance to WP. 0 = OFF, 1 = Looking At, 2 = All.
+    // "waypoint_distance_in_menu": true, // Waypoint Distance In Menu.
+    // "waypoint_name_in_world": true, // WP Name Above Distance.
+    // "waypoint_short_distance_in_world": false, // Always Disp. Dist. to WP.
+    // "waypoint_vertical_pointing_angle": 180, // WP Dist. Vertic. Angle. 1 to 180.
+    // "waypoint_horizontal_pointing_angle": 10, // WP Dist. Horis. Angle. 1 to 180.
+    // "waypoint_max_distance": 0, // Max WP Render Dist. 0 = Unlimited, or 8 to 4194304, doubling, in blocks.
+    // "waypoint_max_distance_dimension_scale": true, // Dimension-scaled Max WP Distance.
+    // "waypoint_min_distance_in_world": 0.0, // Min WP Render Dist. 0.0 = OFF, or 5.0 to 100.0 in steps of 5.0, in blocks.
+    // "waypoint_convert_distance_to_km_at": 10000, // Convert Distance to KM at. -1 = Never, or 0, 1 to 1000000000, in powers of ten, in blocks.
+    // "waypoint_distance_precision": 1, // Waypoint Distance Precision. 0 to 10.
+    // "waypoint_opacity_in_world": 80, // Waypoint Opacity in World. 10 to 100.
+    // "waypoint_opacity_on_minimap": 90, // Waypoint Opacity on Map. 10 to 100.
+    // "waypoint_icon_scale_on_minimap": 0, // On-Map Waypoint Scale. 0 = Auto, or 1 to 17.
+    // "temporary_waypoints_global": true, // Global Temporary Waypoints.
+    // "default_waypoint_teleport_format": "/tp @s {x} {y} {z}", // Waypoint teleport command. Uses {x} {y} {z}.
+    // "default_waypoint_teleport_rotation_format": "/tp @s {x} {y} {z} {yaw} ~", // Waypoint teleport command with rotation. Adds {yaw}.
+    // "waypoint_teleport_cross_dimension": true, // Cross-Dimensional TP.
+    // "waypoint_partial_y_teleport": true, // Use Y With Partial When TP.
+    // "new_waypoints_to_bottom": false, // New Waypoints to Bottom.
+    // "hide_world_names": 1, // Hide IPs/World Names. 0 = OFF, 1 = Partial, 2 = Full.
+    // "minimap_compass_over_everything": true, // Compass Over Everything.
+    // "hide_waypoint_coordinates": false, // Hide Waypoint Coordinates.
+    // "minimap_compass_location": 1, // Compass. 0 = OFF, 1 = On Map, 2 = On Frame.
+    // "minimap_compass_shadow_color": 9, // Compass Shadow Color. A color from the list at the top.
+    // "minimap_compass_north_shadow_color": -1, // North Compass Color. -1 = Default, or a color from the list at the top.
+    // "minimap_compass_scale": 0, // Compass Scale. 0 = Auto, or 1 to 17.
+    // "minimap_block_colors": 0, // Block Colours. 0 = Accurate, 1 = Vanilla.
+    // "minimap_biomes_in_vanilla_colors": false, // Biomes in Vanilla Color Mode.
+    // "minimap_cave_mode_allowed": true, // Minimap cave mode. Overrides enforceFairPlay for it.
+    // "minimap_auto_cave_mode": 2, // Auto Cave Mode. 0 = OFF, 1 = 1x1 Ceiling, 2 = 3x3 Ceiling, 3 = 5x5 Ceiling.
+    // "minimap_manual_cave_mode_start": 2147483647, // Manual Cave Mode Start Y. 2147483647 = Auto, or -57 to 319 in steps of 8.
+    // "minimap_cave_mode_depth": 30, // Cave Mode Depth. 0 to 64.
+    // "minimap_legible_cave_maps": false, // Legible Cave Maps.
+    // "minimap_cave_mode_toggle_timer": 1000.0, // Cave Mode Toggle Timer. 0.0 to 10000.0 in steps of 100.0, in milliseconds.
+    // "minimap_biome_blending": true, // Biome Blending.
+    // "minimap_display_world_map_chunks": true, // Use World Map Mod Chunks.
+    // "minimap_terrain_depth": true, // Terrain Depth.
+    // "minimap_terrain_slopes": 2, // Terrain Slopes. 0 = OFF, 1 = Legacy, 2 = Default 3D, 3 = Default 2D.
+    // "minimap_display_redstone": true, // Show Redstone.
+    // "minimap_display_flowers": true, // Show Flowers.
+    // "minimap_block_transparency": true, // Block Transparency.
+    // "minimap_display_stained_glass": true, // Display Stained Glass.
+    // "minimap_adjust_height_for_short_blocks": true, // Adjust Y For Short Blocks.
+    // "minimap_anti_aliasing": true, // Anti-Aliasing.
+    // "minimap_size": 0, // Minimap size. 0 = Auto, or 55 to 250.
+    // "minimap_shape": 0, // Shape. 0 = Square, 1 = Circle.
+    // "minimap_north_locked": false, // Lock Minimap North.
+    // "minimap_zoom": 1, // Zoom. 1 to 6.
+    // "minimap_further_zoomout": false, // Further Zoom-out.
+    // "minimap_cave_mode_extra_zoom": 2, // Cave Mode Zoom In. 1 to 4.
+    // "minimap_enlarged_zoom": 0, // Zoom Level When Enlarged. 0 = Auto, or 1 to 6.
+    // "minimap_centered_when_enlarged": false, // Center When Enlarged.
+    // "keep_enlarged_minimap_unlocked": false, // Keep Rotation When Enlarged.
+    // "minimap_toggled_enlarged": false, // Toggled Enlarged Minimap.
+    // "minimap_lighting": true, // Lighting.
+    // "minimap_opacity": 100, // Opacity. 30 to 100.
+    // "minimap_frame": 0, // Frame Style. 0 = Default, 1 = Colored, 2 = Colored Thin, 3 = OFF.
+    // "minimap_frame_color": 9, // Frame Color. A color from the list at the top.
+    // "hide_minimap_under_screen": true, // Hide When Under Screen.
+    // "hide_minimap_under_f3": true, // Hide When Under F3.
+    // "boss_health_push_box": 1, // Boss Health Push Box. 0 = OFF, 1 = Normal, 2 = Screen Height.
+    // "potion_effect_push_box": 1, // Potion Effects Push Box. 0 = OFF, 1 = Normal, 2 = Screen Height.
+    // "minimap_chunk_grid": -1, // Chunk Grid. -1 = OFF, or a color from the list at the top.
+    // "minimap_chunk_grid_line_width": 1, // Chunk Grid Line Width. 1 to 8.
+    // "minimap_slime_chunks": false, // Slime Chunks.
+    // "minimap_open_slime_chunks_screen": true, // Slime chunk key opens the seed screen.
+    // "minimap_light_overlay_type": 0, // Light Overlay. 0 = OFF, 1 = Block, 2 = Sky, 3 = All.
+    // "minimap_light_overlay_max_light": 7, // Light overlay max light. 0 to 15.
+    // "minimap_light_overlay_min_light": 0, // Light overlay min light. 0 to 15.
+    // "minimap_light_overlay_color": 13, // Light overlay color. A color from the list at the top.
+    // "minimap_display_opac_claims": true, // Display Chunk Claims.
+    // "minimap_opac_claim_fill_opacity": 46, // Chunk Claims Fill Opacity. 1 to 100.
+    // "minimap_opac_claim_border_opacity": 80, // Chunk Claims Border Opacity. 1 to 100.
+    // "minimap_display_opac_current_claim": true, // Display Current Claim.
+    // "minimap_info_display_background_opacity": 40, // Info Display Background Opacity. 1 to 100.
+    // "minimap_info_display_alignment": 0, // Info Text Alignment. 0 = Center, 1 = Left, 2 = Right.
+    // "hud_render_layer": 1, // Overlay Render Layer. 0 to 100.
+    // "minimap_undiscovered_opacity": 50, // Undiscovered Opacity. 0 to 100.
+    // "discovered_waystone_waypoints": true, // Discovered Waystone Waypoints.
+    // "other_waystone_waypoints": true, // Other Waystone Waypoints.
+  },
+  "worldMap": {
+    // "lighting": true, // Lighting.
+    // "block_colors": 0, // Block Colours. 0 = Accurate, 1 = Vanilla.
+    // "load_new_chunks": true, // Load New Chunks.
+    // "update_chunks": true, // Update Chunks.
+    // "terrain_depth": true, // Terrain Depth.
+    // "terrain_slopes": 2, // Terrain Slopes. 0 = OFF, 1 = Legacy, 2 = Default 3D, 3 = Default 2D.
+    // "footsteps": true, // Footsteps.
+    // "display_coordinates": true, // Cursor Coordinates.
+    // "waypoints": true, // World Map Waypoints.
+    // "render_waypoints": true, // Render World Map Waypoints.
+    // "waypoint_backgrounds": true, // Render Waypoint Backgrounds.
+    // "waypoint_scale": 1.0, // Waypoint Scale. 0.5 to 5.0 in steps of 0.5.
+    // "biome_blending": true, // Biome Blending.
+    // "biome_colors_in_vanilla": false, // Biomes In Vanilla Mode.
+    // "minimum_zoom_for_local_waypoints": 0.0, // Min Zoom For Local Waypoints. 0.0 to 3.0 in steps of 0.01.
+    // "adjust_height_for_short_blocks": true, // Adjust Y For Short Blocks.
+    // "display_flowers": true, // Load Flowers.
+    // "display_stained_glass": true, // Display Stained Glass.
+    // "cave_mode_allowed": true, // World Map cave mode. Overrides enforceFairPlay for it.
+    // "cave_mode_depth": 30, // Cave Mode Depth. 1 to 64.
+    // "legible_cave_maps": false, // Legible Cave Maps.
+    // "auto_cave_mode": -1, // Auto Cave Mode. -1 = Minimap, 0 = OFF, 1 = 1x1 Ceiling, 2 = 3x3 Ceiling, 3 = 5x5 Ceiling.
+    // "cave_mode_toggle_timer": 1.0, // Cave Mode Toggle Timer. 0.0 to 10.0 in steps of 0.1, in seconds.
+    // "default_cave_mode_type": 1, // Default Cave Mode Type. 0 = OFF, 1 = Layered, 2 = Full.
+    // "display_cave_mode_start": true, // Display Cave Mode Top Y.
+    // "map_writing_distance": -1, // Map Writing Distance. -1 = Unlimited, or 0 to 32.
+    // "display_player_as_arrow": true, // Render Player Arrow.
+    // "opening_animation": true, // Animation On Open.
+    // "arrow_color": -2, // Arrow Color. -2 = Minimap, -1 = Team, 0 = Red, 1 = Green, 2 = Blue, 3 = Yellow, 4 = Purple, 5 = White, 6 = Black, 7 = Legacy.
+    // "display_zoom": true, // Display Zoom Level.
+    // "display_hovered_biome": true, // Cursor Biome.
+    // "zoom_buttons": true, // Zoom Buttons.
+    // "detect_ambiguous_y": true, // Detect Ambiguous Y In Discovered.
+    // "default_map_teleport_command_format": "/tp @s {x} {y} {z}", // Map right-click teleport command. Uses {x} {y} {z}.
+    // "default_map_teleport_command_dimension_format": "/execute as @s in {d} run tp {x} {y} {z}", // Cross-dimension map teleport command. {d} is the dimension.
+    // "default_player_teleport_command_format": "/tp @s {name}", // Tracked player teleport command. {name} is the player.
+    // "map_teleport_allowed": true, // Map Teleportation.
+    // "partial_y_teleport": true, // Use Y With Partial When TP.
+    // "display_opac_claims": true, // Display Chunk Claims.
+    // "opac_claims_border_opacity": 80, // Chunk Claims Border Opacity. 1 to 100.
+    // "opac_claims_fill_opacity": 46, // Chunk Claims Fill Opacity. 1 to 100.
+    // "map_item": "-", // Item ID required in the hotbar to open the World Map. "-" for none.
+    // "display_minimap_radar": true, // Minimap Radar.
+    // "display_tracked_players": true, // Display Tracked Players.
+    // "unlimited_zoom_in": false, // Unlimited Fullscreen Zoom-in.
+    // "unlimited_zoom_out": false, // Unlimited Fullscreen Zoom-out.
+    // "skip_world_render": true, // Skip World Render.
+    // "display_server_chunk_radius": false, // Display Server Chunk Radius.
+    // "force_fast_map_writing": false, // Force Fast Writing.
+    // "display_map_distances": true, // Display Map Distances.
+    // "convert_map_distances_to_km_at": 10000, // Convert Map Distance to KM at. -1 = Never, or 0, 1 to 1000000000, in powers of ten, in blocks.
+    // "map_distance_precision": 1, // Map Distance Precision. 0 to 10.
+  },
 }

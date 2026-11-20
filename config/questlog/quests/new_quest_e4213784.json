@@ -1,0 +1,19 @@
+{
+  "title": "Thermopneumatic Processing Plant",
+  "description": "The gateway to many materials alongside Steam, a vast, inexpensive source of power for Liquid Compressors which can provide pressure and rotational force alike!\n\nThe TPP can be assembled out of the basic reinforced materials that use Cast Iron. To power the machine, provide pressure to it using pressure tubes. If a recipe requires a certain temperature, blocks or liquids that are hot or cold can be placed adjacent to the TPP to alter its temperature.",
+  "icon": {
+    "item": "pneumaticcraft:thermopneumatic_processing_plant"
+  },
+  "chapter": "pnc_start",
+  "sort_order": 4,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Thermopneumatic Processing Plant",
+      "item": "pneumaticcraft:thermopneumatic_processing_plant",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

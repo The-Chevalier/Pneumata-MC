@@ -7,9 +7,9 @@
 		# Range: 0.1 ~ 100.0
 		ammoBoxCapacityMultiplier = 1.0
 		#If true, guns will be damageable and can break, coward if you toggle this
-		enableGunDamage = true
+		enableGunDamage = false
 		#If true, gun attachments will be damageable and can break, also a coward
-		enableAttachmentDamage = true
+		enableAttachmentDamage = false
 		#The extra amount to expand an entity's bounding box when checking for projectile collision. Setting this value higher will make it easier to hit entities
 		# Default: 0.3
 		# Range: 0.0 ~ 1.0
@@ -31,13 +31,13 @@
 		#Sets the strength of knockback when shot by a bullet projectile. Knockback must be enabled for this to take effect. If value is equal to zero, knockback will use default minecraft value
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
-		knockbackStrength = 0.15
+		knockbackStrength = 0.05
 		#If true, improves the accuracy of weapons by considering the ping of the player. This has no affect on singleplayer. This will add a little overhead if enabled.
-		improvedHitboxes = false
+		improvedHitboxes = true
 		#Damage dealt by the Enemy Guns
 		# Default: 4.5
 		# Range: 0.0 ~ 1.7976931348623157E308
-		enemyBulletDamage = 4.5
+		enemyBulletDamage = 3.5
 		#Energy produced per tick by the Polar Generator. Adjust this value to balance the generator's output.
 		# Default: 50
 		# Range: > 1
@@ -61,11 +61,11 @@
 		#Global multiplier for mob fire rate. 1.0 = normal speed, 0.5 = faster, 2.0 = slower.
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		mobFireRateMultiplier = 1.0
+		mobFireRateMultiplier = 2.0
 		#Multiplier for delay between mob gun bursts. Higher values add longer pauses between bursts.
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		mobBurstDelayMultiplier = 1.0
+		mobBurstDelayMultiplier = 2.0
 		#Global multiplier for mob gun damage after difficulty scaling.
 		# Default: 1.0
 		# Range: 0.01 ~ 100.0
@@ -84,7 +84,7 @@
 			#The base chance that a fragile block is broken when impacted by a bullet. The hardness of a block will scale this value; the harder the block, the lower the final calculated chance will be.
 			# Default: 1.0
 			# Range: 0.0 ~ 1.0
-			fragileBlockBreakChance = 1.0
+			fragileBlockBreakChance = 0.6
 			#If true, allows guns enchanted with Fire Starter to light and spread fires on blocks
 			setFireToBlocks = true
 			#If true, allows heavy rounds to break blocks

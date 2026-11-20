@@ -1,0 +1,30 @@
+filename = 'create-propulsion-simulated-and-chemica-fuels-compatibility-1.2.jar'
+name = 'Create Propulsion: Simulated and Chemica Fuels Compatibility'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2+mod'
+
+[download]
+hash = '47a5e6de14ea2e9af68ee98bc74bc7deeae844dfab5a7329bfebc96810fa9a2c1a5f852ac2ac9921c0a9172be708d3281fd0ad86e5b2fb6c7e27889c73558339'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LTF771FZ/versions/2qfJfkz5/create-propulsion-simulated-and-chemica-fuels-compatibility-1.2.jar'
+
+[update.modrinth]
+mod-id = 'LTF771FZ'
+version = '2qfJfkz5'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'E6GusVzz'
+type = 'REQUIRED'
+version = 'hzLufTiW'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'USgVjXsk'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ApkoHNO9'
+type = 'REQUIRED'

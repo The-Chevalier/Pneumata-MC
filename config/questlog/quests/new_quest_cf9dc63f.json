@@ -1,0 +1,18 @@
+{
+  "title": "Sightseeing",
+  "description": "The handy spyglass can be configured to use a keybind, not being required to be in the hand to use, and the shape of the silhouette (or its removal) can be edited in settings under Spyglass Improvements Settings.",
+  "icon": {
+    "item": "minecraft:spyglass"
+  },
+  "chapter": "general_beginnings",
+  "sort_order": 0,
+  "objectives": [],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:spyglass",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

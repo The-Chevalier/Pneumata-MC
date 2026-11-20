@@ -1,0 +1,37 @@
+{
+  "title": "Pressure Chamber",
+  "description": "The heart of pressure operations is the pressure chamber. This quest teaches you how to make a 4x4x4 pressure chamber, but they can be made larger!\n\nUsing the cast iron, reinforced stone can be crafted and used to fashion the components of the chamber: Walls, Valves, and Interfaces. You will REQUIRE two interfaces, but you may have just 1 valve if you'd like.\n\nAssemble a hollow 4x4x4 block using the Pressure Chamber walls, and then fill in one of the empty internal faces with your interfaces. One should face in and one should face out. Place your valves wherever you wish, and seal the rest with more walls. The build will be successful if the structure textures change.",
+  "icon": {
+    "item": "pneumaticcraft:pressure_chamber_interface"
+  },
+  "chapter": "pnc_start",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft Reinforced Stone",
+      "item": "pneumaticcraft:reinforced_stone",
+      "required_amount": 28
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft atleast one Pressure Chamber Valve.",
+      "item": "pneumaticcraft:pressure_chamber_valve",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft two Pressure Chamber Interfaces",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "required_amount": 2
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft Pressure Chamber Walls",
+      "item": "pneumaticcraft:pressure_chamber_wall",
+      "required_amount": 24
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

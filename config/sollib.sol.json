@@ -1,0 +1,16 @@
+// This config file uses a custom defined parser.
+//   That's why there are comments here and stray values below, they wouldn't be valid in any other .json file
+//   To add a comment yourself, just start a line with // like here
+
+version: 1.0
+reset: false
+
+// RUNTIME DATA
+"runtime_data": {
+  // If false, disables "Applying runtime data" messages in logs
+  "log": true,
+  // Any file id in this list will be ignored when applying runtime data
+  //   It should never be the case, but if a file fails to load properly, try adding it here and see if it fixes the issue
+  "blacklist": [
+  ]
+}

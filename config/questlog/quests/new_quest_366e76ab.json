@@ -1,0 +1,19 @@
+{
+  "title": "Basic Rotational Force",
+  "description": "At nearly every step, some amount of automation will be needed. For now, the most basic means will have to suffice.\n\nWater Wheels can be fashioned out of wood as a quick and easy power source, but they are very weak without the right placement. The wheels must be touching a large body of water, and for optimum usage, they must be in a river.",
+  "icon": {
+    "item": "create:water_wheel"
+  },
+  "chapter": "foundry_start",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft Water Wheels",
+      "item": "create:water_wheel",
+      "required_amount": 3
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

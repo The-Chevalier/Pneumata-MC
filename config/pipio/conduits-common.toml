@@ -1,0 +1,47 @@
+[conduits]
+	#Whether players can mix and match energy conduits
+	canMixEnergyConduitTiers = true
+	#Whether players can mix and match fluid conduits
+	canMixFluidConduitTiers = true
+	#Whether players can mix and match item conduits
+	canMixItemConduitTiers = true
+
+	#Transfer rate ("rating") of each conduit variant. Overrides the built-in datapack values.
+	#Energy is FE/tick, item is items/cycle, fluid is mB/cycle, chemical is mB/tick (requires Mekanism).
+	[conduits.rates]
+		# Default: 8000
+		# Range: > 0
+		basic_energy_rate = 8000
+		# Default: 48000
+		# Range: > 0
+		advanced_energy_rate = 48000
+		# Default: 192000
+		# Range: > 0
+		ultimate_energy_rate = 192000
+		# Default: 32
+		# Range: > 0
+		basic_item_rate = 32
+		# Default: 64
+		# Range: > 0
+		advanced_item_rate = 64
+		# Default: 64
+		# Range: > 0
+		ultimate_item_rate = 64
+		# Default: 200
+		# Range: > 0
+		basic_fluid_rate = 200
+		# Default: 1000
+		# Range: > 0
+		advanced_fluid_rate = 1000
+		# Default: 8000
+		# Range: > 0
+		ultimate_fluid_rate = 8000
+		# Default: 750
+		# Range: > 0
+		basic_chemical_rate = 750
+		# Default: 2000
+		# Range: > 0
+		advanced_chemical_rate = 2000
+		# Default: 64000
+		# Range: > 0
+		ultimate_chemical_rate = 64000

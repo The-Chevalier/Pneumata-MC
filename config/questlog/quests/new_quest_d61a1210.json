@@ -1,0 +1,19 @@
+{
+  "title": "Basic Pressure",
+  "description": "Solid fuels can be burned in the Air Compressor to pressurize your freshly built Pressure Chamber. Make sure to craft some pressure tubes and Safety Modules!",
+  "icon": {
+    "item": "pneumaticcraft:air_compressor"
+  },
+  "chapter": "pnc_start",
+  "sort_order": 3,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft an Air Compressor",
+      "item": "pneumaticcraft:air_compressor",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

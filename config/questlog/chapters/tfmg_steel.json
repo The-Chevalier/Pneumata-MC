@@ -1,0 +1,9 @@
+{
+  "name": "Steel Production",
+  "icon": {
+    "item": "tfmg:fireproof_bricks"
+  },
+  "order": 5,
+  "default_chapter": false,
+  "hidden": false
+}
